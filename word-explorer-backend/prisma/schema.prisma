@@ -1,0 +1,82 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// 用户表
+model User {
+  id            String   @id @default(cuid())
+  username      String   @unique
+  password      String
+  nickname      String?
+  avatar        String?
+  level         Int      @default(1)
+  exp           Int      @default(0)
+  expToNextLevel Int      @default(100)
+  streak        Int      @default(0)
+  totalWords    Int      @default(0)
+  totalDays     Int      @default(0)
+  lastLoginAt   DateTime @default(now())
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  progress  UnitProgress[]
+  reviews   ReviewRecord[]
+  wrongWords WrongWord[]
+}
+
+// 单元进度表
+model UnitProgress {
+  id        String   @id @default(cuid())
+  userId    String
+  grade     Int
+  unit      Int
+  stars     Int      @default(0)
+  bestScore Int      @default(0)
+  completed Boolean  @default(false)
+  lastReviewAt DateTime? 
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, grade, unit])
+}
+
+// 复习记录表（记忆曲线）
+model ReviewRecord {
+  id           String   @id @default(cuid())
+  userId       String
+  wordId       String
+  wordEn       String
+  repetitions   Int      @default(0)
+  efactor       Float    @default(2.5)
+  interval      Int      @default(0)
+  nextReviewAt DateTime
+  lastQuality   Int      @default(0)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// 错题本表
+model WrongWord {
+  id          String   @id @default(cuid())
+  userId      String
+  wordId      String
+  wordEn      String
+  wrongCount  Int      @default(1)
+  lastWrongAt DateTime @default(now())
+  mastered    Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, wordId])
+}

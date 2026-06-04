@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #6C5CE7;
+    --secondary: #FF6B35;
+    --background: #F8F9FE;
+    --background-card: #FFFFFF;
+    --text: #2D3436;
+    --text-secondary: #636E72;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+    font-family: "PingFang SC", "Roboto", sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  input {
+    font-family: inherit;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#6C5CE7] text-white font-semibold py-3 px-6 rounded-xl 
+           hover:bg-[#5B4FCF] active:scale-95 transition-all duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-[#FF6B35] text-white font-semibold py-3 px-6 rounded-xl 
+           hover:bg-[#F54D1C] active:scale-95 transition-all duration-200;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent border-2 border-gray-300 text-gray-600 font-semibold 
+           py-3 px-6 rounded-xl hover:bg-gray-100 active:scale-95 transition-all duration-200;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-md p-5;
+  }
+
+  .gradient-primary {
+    @apply bg-gradient-to-r from-[#6C5CE7] to-[#A78BFA];
+  }
+
+  .gradient-secondary {
+    @apply bg-gradient-to-r from-[#FF6B35] to-[#FFB347];
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .streak-glow {
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.5);
+  }
+}

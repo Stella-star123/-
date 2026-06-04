@@ -1,0 +1,22 @@
+[
+  { "id": "g7u2-01", "en": "daily", "phonetic": "/ˈdeɪli/", "pos": "adj.", "cn": ["每日的", "日常的"], "example": "I drink daily water.", "exampleCn": "我每天喝水。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-02", "en": "routine", "phonetic": "/ruːˈtiːn/", "pos": "n.", "cn": ["常规", "惯例"], "example": "I have a good daily routine.", "exampleCn": "我有一个好的日常惯例。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-03", "en": "wake", "phonetic": "/weɪk/", "pos": "v.", "cn": ["醒来", "唤醒"], "example": "I wake up at 6 o'clock.", "exampleCn": "我六点醒来。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-04", "en": "breakfast", "phonetic": "/ˈbrekfəst/", "pos": "n.", "cn": ["早餐"], "example": "I eat breakfast at 7.", "exampleCn": "我七点吃早餐。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-05", "en": "go to school", "phonetic": "", "pos": "phrase", "cn": ["去上学"], "example": "I go to school by bus.", "exampleCn": "我坐公交车去上学。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-06", "en": "lesson", "phonetic": "/ˈlesn/", "pos": "n.", "cn": ["课", "功课"], "example": "The first lesson is English.", "exampleCn": "第一节课是英语。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-07", "en": "break", "phonetic": "/breɪk/", "pos": "n.", "cn": ["休息", "间断"], "example": "We have a break at 10 o'clock.", "exampleCn": "我们十点休息。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-08", "en": "lunch", "phonetic": "/lʌntʃ/", "pos": "n.", "cn": ["午餐"], "example": "I have lunch at school.", "exampleCn": "我在学校吃午餐。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-09", "en": "afternoon", "phonetic": "/ˌɑːftəˈnuːn/", "pos": "n.", "cn": ["下午"], "example": "I play sports in the afternoon.", "exampleCn": "我下午做运动。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-10", "en": "homework", "phonetic": "/ˈhəʊmwɜːk/", "pos": "n.", "cn": ["家庭作业"], "example": "I do my homework after dinner.", "exampleCn": "我晚饭后做家庭作业。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-11", "en": "dinner", "phonetic": "/ˈdɪnə(r)/", "pos": "n.", "cn": ["晚餐"], "example": "We eat dinner together.", "exampleCn": "我们一起吃晚餐。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-12", "en": "watch", "phonetic": "/wɒtʃ/", "pos": "v.", "cn": ["观看", "注视"], "example": "I watch TV after dinner.", "exampleCn": "我晚饭后看电视。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-13", "en": "bedtime", "phonetic": "/ˈbedtaɪm/", "pos": "n.", "cn": ["就寝时间"], "example": "My bedtime is 10 o'clock.", "exampleCn": "我的就寝时间是十点。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-14", "en": "usually", "phonetic": "/ˈjuːʒuəli/", "pos": "adv.", "cn": ["通常"], "example": "I usually get up early.", "exampleCn": "我通常早起。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-15", "en": "sometimes", "phonetic": "/ˈsʌmtaɪmz/", "pos": "adv.", "cn": ["有时"], "example": "I sometimes play games.", "exampleCn": "我有时玩游戏。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-16", "en": "seldom", "phonetic": "/ˈseldəm/", "pos": "adv.", "cn": ["很少", "不常"], "example": "I seldom eat junk food.", "exampleCn": "我很少吃垃圾食品。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-17", "en": "never", "phonetic": "/ˈnevə(r)/", "pos": "adv.", "cn": ["从不"], "example": "I never give up.", "exampleCn": "我从不放弃。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-18", "en": "exercise", "phonetic": "/ˈeksəsaɪz/", "pos": "n.", "cn": ["锻炼", "练习"], "example": "I do exercise every morning.", "exampleCn": "我每天早上锻炼。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-19", "en": "swim", "phonetic": "/swɪm/", "pos": "v.", "cn": ["游泳"], "example": "I can swim very well.", "exampleCn": "我游泳游得很好。", "grade": 7, "unit": 2 },
+  { "id": "g7u2-20", "en": "walk", "phonetic": "/wɔːk/", "pos": "v.", "cn": ["步行", "散步"], "example": "I walk to school every day.", "exampleCn": "我每天步行去学校。", "grade": 7, "unit": 2 }
+]
