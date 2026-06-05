@@ -1,3 +1,6 @@
+/** 学期枚举 */
+export type Semester = 1 | 2;  // 1=上册, 2=下册
+
 /** 单词条目 - 沪教版七至九年级 */
 export interface WordEntry {
   id: string;
@@ -8,7 +11,22 @@ export interface WordEntry {
   example: string;     // 英文例句
   exampleCn: string;   // 例句中文翻译
   grade: number;       // 所属年级 7/8/9
+  semester: Semester;  // 学期 1=上册 2=下册
   unit: number;        // 所属单元编号
+}
+
+/** 年级学期配置 */
+export interface GradeSemesterConfig {
+  grade: number;
+  label: string;
+  semesters: SemesterConfig[];
+}
+
+export interface SemesterConfig {
+  semester: Semester;
+  label: string;
+  color: string;
+  units: number;
 }
 
 /** 题型枚举 */
@@ -34,6 +52,7 @@ export interface QuizRecord {
 export interface UnitProgress {
   userId: string;
   grade: number;
+  semester: Semester;
   unit: number;
   stars: number;        // 0-3 星
   bestScore: number;

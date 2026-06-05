@@ -4,14 +4,15 @@ import { authMiddleware } from "../middleware/auth.middleware";
 const router = Router();
 
 // 获取单元单词列表
-router.get("/:grade/:unit", authMiddleware, async (req: Request, res: Response) => {
+router.get("/:grade/:semester/:unit", authMiddleware, async (req: Request, res: Response) => {
   try {
-    const { grade, unit } = req.params;
+    const { grade, semester, unit } = req.params;
     const gradeNum = parseInt(grade);
+    const semesterNum = parseInt(semester);
     const unitNum = parseInt(unit);
 
-    if (isNaN(gradeNum) || isNaN(unitNum)) {
-      res.status(400).json({ message: "年级和单元必须是数字" });
+    if (isNaN(gradeNum) || isNaN(semesterNum) || isNaN(unitNum)) {
+      res.status(400).json({ message: "年级、学期和单元必须是数字" });
       return;
     }
 
@@ -19,6 +20,7 @@ router.get("/:grade/:unit", authMiddleware, async (req: Request, res: Response) 
     // 目前返回空数组，前端使用模拟数据
     res.json({
       grade: gradeNum,
+      semester: semesterNum,
       unit: unitNum,
       words: [],
       total: 0,

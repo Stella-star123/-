@@ -7,6 +7,7 @@ const prisma = new PrismaClient();
 
 interface QuizSubmitRequest {
   grade: number;
+  semester: number;
   unit: number;
   answers: {
     wordId: string;
@@ -22,9 +23,9 @@ router.post("/submit", authMiddleware, async (req: Request, res: Response) => {
   try {
     const userId = (req as any).userId;
     const body = req.body as QuizSubmitRequest;
-    const { grade, unit, answers, score, expGained } = body;
+    const { grade, semester, unit, answers, score, expGained } = body;
 
-    if (!grade || !unit || !answers) {
+    if (!grade || !semester || !unit || !answers) {
       res.status(400).json({ message: "参数不完整" });
       return;
     }
@@ -41,9 +42,10 @@ router.post("/submit", authMiddleware, async (req: Request, res: Response) => {
     // 更新或创建单元进度
     const existing = await prisma.unitProgress.findUnique({
       where: {
-        userId_grade_unit: {
+        userId_grade_semester_unit: {
           userId,
           grade,
+          semester,
           unit,
         },
       },
@@ -64,6 +66,7 @@ router.post("/submit", authMiddleware, async (req: Request, res: Response) => {
         data: {
           userId,
           grade,
+          semester,
           unit,
           stars,
           bestScore: score,

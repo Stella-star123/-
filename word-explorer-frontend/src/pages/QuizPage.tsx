@@ -17,16 +17,16 @@ import { scoreTranslation } from "../utils/translationScorer";
 
 // 模拟词库（实际应从后端API加载）
 const MOCK_WORDS: WordEntry[] = [
-  { id: "1", en: "German", phonetic: "/ˈdʒɜːmən/", pos: "adj.", cn: ["德国的", "德国人的"], example: "I like German food.", exampleCn: "我喜欢德国食物。", grade: 7, unit: 1 },
-  { id: "2", en: "sound", phonetic: "/saʊnd/", pos: "n.", cn: ["声音", "声响"], example: "The sound is very nice.", exampleCn: "这声音很好听。", grade: 7, unit: 1 },
-  { id: "3", en: "hobby", phonetic: "/ˈhɒbi/", pos: "n.", cn: ["爱好", "业余爱好"], example: "My hobby is reading.", exampleCn: "我的爱好是阅读。", grade: 7, unit: 1 },
-  { id: "4", en: "country", phonetic: "/ˈkʌntri/", pos: "n.", cn: ["国家", "乡村"], example: "China is a great country.", exampleCn: "中国是一个伟大的国家。", grade: 7, unit: 1 },
-  { id: "5", en: "dream", phonetic: "/driːm/", pos: "n.", cn: ["梦想", "梦"], example: "I have a big dream.", exampleCn: "我有一个大梦想。", grade: 7, unit: 1 },
-  { id: "6", en: "everyone", phonetic: "/ˈevriwʌn/", pos: "pron.", cn: ["人人", "全部人"], example: "Everyone likes the game.", exampleCn: "每个人都喜欢这个游戏。", grade: 7, unit: 1 },
-  { id: "7", en: "Germany", phonetic: "/ˈdʒɜːməni/", pos: "n.", cn: ["德国"], example: "Germany is in Europe.", exampleCn: "德国在欧洲。", grade: 7, unit: 1 },
-  { id: "8", en: "mountain", phonetic: "/ˈmaʊntən/", pos: "n.", cn: ["山", "山脉"], example: "The mountain is very high.", exampleCn: "这座山很高。", grade: 7, unit: 1 },
-  { id: "9", en: "elder", phonetic: "/ˈeldə(r)/", pos: "adj.", cn: ["年长的", "资深的"], example: "My elder brother is tall.", exampleCn: "我的哥哥很高。", grade: 7, unit: 1 },
-  { id: "10", en: "friendly", phonetic: "/ˈfrendli/", pos: "adj.", cn: ["友好的", "友善的"], example: "He is very friendly.", exampleCn: "他非常友好。", grade: 7, unit: 1 },
+  { id: "1", en: "German", phonetic: "/ˈdʒɜːmən/", pos: "adj.", cn: ["德国的", "德国人的"], example: "I like German food.", exampleCn: "我喜欢德国食物。", grade: 7, semester: 1, unit: 1 },
+  { id: "2", en: "sound", phonetic: "/saʊnd/", pos: "n.", cn: ["声音", "声响"], example: "The sound is very nice.", exampleCn: "这声音很好听。", grade: 7, semester: 1, unit: 1 },
+  { id: "3", en: "hobby", phonetic: "/ˈhɒbi/", pos: "n.", cn: ["爱好", "业余爱好"], example: "My hobby is reading.", exampleCn: "我的爱好是阅读。", grade: 7, semester: 1, unit: 1 },
+  { id: "4", en: "country", phonetic: "/ˈkʌntri/", pos: "n.", cn: ["国家", "乡村"], example: "China is a great country.", exampleCn: "中国是一个伟大的国家。", grade: 7, semester: 1, unit: 1 },
+  { id: "5", en: "dream", phonetic: "/driːm/", pos: "n.", cn: ["梦想", "梦"], example: "I have a big dream.", exampleCn: "我有一个大梦想。", grade: 7, semester: 1, unit: 1 },
+  { id: "6", en: "everyone", phonetic: "/ˈevriwʌn/", pos: "pron.", cn: ["人人", "全部人"], example: "Everyone likes the game.", exampleCn: "每个人都喜欢这个游戏。", grade: 7, semester: 1, unit: 1 },
+  { id: "7", en: "Germany", phonetic: "/ˈdʒɜːməni/", pos: "n.", cn: ["德国"], example: "Germany is in Europe.", exampleCn: "德国在欧洲。", grade: 7, semester: 1, unit: 1 },
+  { id: "8", en: "mountain", phonetic: "/ˈmaʊntən/", pos: "n.", cn: ["山", "山脉"], example: "The mountain is very high.", exampleCn: "这座山很高。", grade: 7, semester: 1, unit: 1 },
+  { id: "9", en: "elder", phonetic: "/ˈeldə(r)/", pos: "adj.", cn: ["年长的", "资深的"], example: "My elder brother is tall.", exampleCn: "我的哥哥很高。", grade: 7, semester: 1, unit: 1 },
+  { id: "10", en: "friendly", phonetic: "/ˈfrendli/", pos: "adj.", cn: ["友好的", "友善的"], example: "He is very friendly.", exampleCn: "他非常友好。", grade: 7, semester: 1, unit: 1 },
 ];
 
 const QUIZ_TYPES: QuizType[] = ["en2cn", "cn2en", "spell", "listen", "match", "flashcard", "sentence"];
@@ -50,7 +50,7 @@ function speak(text: string) {
 }
 
 export default function QuizPage() {
-  const { grade, unit } = useParams<{ grade: string; unit: string }>();
+  const { grade, semester, unit } = useParams<{ grade: string; semester: string; unit: string }>();
   const navigate = useNavigate();
   const { user, setUser } = useUserStore();
   const {
