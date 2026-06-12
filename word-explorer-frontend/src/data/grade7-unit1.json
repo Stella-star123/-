@@ -1,22 +1,634 @@
 [
-  { "id": "g7u1-01", "en": "German", "phonetic": "/ˈdʒɜːmən/", "pos": "adj.", "cn": ["德国的", "德国人的", "德语的"], "example": "I like German food.", "exampleCn": "我喜欢德国食物。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-02", "en": "sound", "phonetic": "/saʊnd/", "pos": "n.", "cn": ["声音", "声响"], "example": "The sound is very nice.", "exampleCn": "这声音很好听。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-03", "en": "hobby", "phonetic": "/ˈhɒbi/", "pos": "n.", "cn": ["爱好", "业余爱好"], "example": "My hobby is reading.", "exampleCn": "我的爱好是阅读。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-04", "en": "country", "phonetic": "/ˈkʌntri/", "pos": "n.", "cn": ["国家", "乡村"], "example": "China is a great country.", "exampleCn": "中国是一个伟大的国家。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-05", "en": "dream", "phonetic": "/driːm/", "pos": "n.", "cn": ["梦想", "梦"], "example": "I have a big dream.", "exampleCn": "我有一个大梦想。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-06", "en": "everyone", "phonetic": "/ˈevriwʌn/", "pos": "pron.", "cn": ["人人", "每个人"], "example": "Everyone likes the game.", "exampleCn": "每个人都喜欢这个游戏。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-07", "en": "Germany", "phonetic": "/ˈdʒɜːməni/", "pos": "n.", "cn": ["德国"], "example": "Germany is in Europe.", "exampleCn": "德国在欧洲。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-08", "en": "mountain", "phonetic": "/ˈmaʊntən/", "pos": "n.", "cn": ["山", "山脉"], "example": "The mountain is very high.", "exampleCn": "这座山很高。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-09", "en": "elder", "phonetic": "/ˈeldə(r)/", "pos": "adj.", "cn": ["年长的", "资深的"], "example": "My elder brother is tall.", "exampleCn": "我的哥哥很高。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-10", "en": "friendly", "phonetic": "/ˈfrendli/", "pos": "adj.", "cn": ["友好的", "友善的"], "example": "He is very friendly.", "exampleCn": "他非常友好。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-11", "en": "engineer", "phonetic": "/ˌendʒɪˈnɪə(r)/", "pos": "n.", "cn": ["工程师"], "example": "My father is an engineer.", "exampleCn": "我爸爸是一名工程师。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-12", "en": "world", "phonetic": "/wɜːld/", "pos": "n.", "cn": ["世界"], "example": "The world is beautiful.", "exampleCn": "世界是美丽的。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-13", "en": "Japan", "phonetic": "/dʒəˈpæn/", "pos": "n.", "cn": ["日本"], "example": "I want to visit Japan.", "exampleCn": "我想去日本旅游。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-14", "en": "Japanese", "phonetic": "/ˌdʒæpəˈniːz/", "pos": "adj.", "cn": ["日本的", "日语的"], "example": "She likes Japanese food.", "exampleCn": "她喜欢日本食物。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-15", "en": "yourself", "phonetic": "/jɔːˈself/", "pos": "pron.", "cn": ["你自己"], "example": "You can do it yourself.", "exampleCn": "你可以自己做这件事。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-16", "en": "would", "phonetic": "/wʊd/", "pos": "v.", "cn": ["将", "将会"], "example": "Would you like some tea?", "exampleCn": "你想来点茶吗？", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-17", "en": "penfriend", "phonetic": "/ˈpenfrend/", "pos": "n.", "cn": ["笔友"], "example": "I have a penfriend in Japan.", "exampleCn": "我在日本有一个笔友。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-18", "en": "goal", "phonetic": "/ɡəʊl/", "pos": "n.", "cn": ["目标", "进球得分"], "example": "My goal is to study hard.", "exampleCn": "我的目标是努力学习。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-19", "en": "enjoy", "phonetic": "/ɪnˈdʒɔɪ/", "pos": "v.", "cn": ["享受", "喜欢"], "example": "I enjoy playing basketball.", "exampleCn": "我喜欢打篮球。", "grade": 7, "semester": 1, "unit": 1 },
-  { "id": "g7u1-20", "en": "better", "phonetic": "/ˈbetə(r)/", "pos": "adj.", "cn": ["更好的", "更好的"], "example": "I feel better today.", "exampleCn": "我今天感觉好多了。", "grade": 7, "semester": 1, "unit": 1 }
+  {
+    "id": "g7u1-01",
+    "en": "guitar",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "吉他"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-02",
+    "en": "honest",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "诚实的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-03",
+    "en": "patient",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "有耐心的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-04",
+    "en": "improve",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "改进",
+      "改善"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-05",
+    "en": "confident",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "自信的",
+      "有自信心的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-06",
+    "en": "courage",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "勇气",
+      "胆量"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-07",
+    "en": "friendship",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "友谊",
+      "朋友关系"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-08",
+    "en": "admiration",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "钦佩",
+      "赞赏"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-09",
+    "en": "respect",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "尊敬",
+      "尊重"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-10",
+    "en": "support",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "支持",
+      "鼓励"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-11",
+    "en": "trust",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "信任",
+      "信赖"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-12",
+    "en": "survey",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "调查"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-13",
+    "en": "personal",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "个性的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-14",
+    "en": "quality",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "品质",
+      "品德"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-15",
+    "en": "caring",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "关心他人的",
+      "体贴人的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-16",
+    "en": "describe",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "描述",
+      "形容"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-17",
+    "en": "appearance",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "外貌"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-18",
+    "en": "straight",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "直的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-19",
+    "en": "dark",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "褐色的",
+      "乌黑的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-20",
+    "en": "same",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "同一的",
+      "相同的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-21",
+    "en": "basic",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "基本的",
+      "基础的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-22",
+    "en": "thought",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "想法"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-23",
+    "en": "however",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "然而",
+      "不过"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-24",
+    "en": "glad",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "高兴的",
+      "愉快的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-25",
+    "en": "rise",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "上升"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-26",
+    "en": "end",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "结局"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-27",
+    "en": "heart",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "心"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-28",
+    "en": "be good at",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "擅长…"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-29",
+    "en": "turn to somebody for help",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "求助于某人"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-30",
+    "en": "after school",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "放学后"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-31",
+    "en": "be willing to do something",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "愿意做某事"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-32",
+    "en": "thanks to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "幸亏；由于；因为"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-33",
+    "en": "count on",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "依靠(某人做某事)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-34",
+    "en": "medium height",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "中等身高"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-35",
+    "en": "modern dance",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "现代舞"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-36",
+    "en": "take care of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "照顾；照料"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-37",
+    "en": "watch over",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "照管；监督"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-38",
+    "en": "rise into",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "上升到"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-39",
+    "en": "cry out",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "大叫；叫喊"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-40",
+    "en": "cry oneself to sleep",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "哭着入睡"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-41",
+    "en": "wake up",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "醒；醒来"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-42",
+    "en": "come and go",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "来去"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-43",
+    "en": "take somebody's place",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "替代某人"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-44",
+    "en": "come along",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "出现"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 1
+  }
 ]

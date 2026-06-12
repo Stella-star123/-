@@ -1,22 +1,551 @@
 [
-  {"id":"g7u3-01","en":"earth","phonetic":"/ɜːθ/","pos":"n.","cn":["地球"],"example":"The earth is beautiful.","exampleCn":"地球很美丽。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-02","en":"quiz","phonetic":"/kwɪz/","pos":"n.","cn":["测验","小考"],"example":"We have a quiz today.","exampleCn":"我们今天有个测验。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-03","en":"pattern","phonetic":"/ˈpætn/","pos":"n.","cn":["模式","图案"],"example":"The pattern is nice.","exampleCn":"这个图案很漂亮。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-04","en":"protect","phonetic":"/prəˈtekt/","pos":"v.","cn":["保护"],"example":"We should protect the earth.","exampleCn":"我们应该保护地球。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-05","en":"report","phonetic":"/rɪˈpɔːt/","pos":"n.","cn":["报告","报道"],"example":"I read a report.","exampleCn":"我读了一份报告。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-06","en":"part","phonetic":"/pɑːt/","pos":"n.","cn":["部分","角色"],"example":"This is the best part.","exampleCn":"这是最好的部分。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-07","en":"fact","phonetic":"/fækt/","pos":"n.","cn":["事实"],"example":"That is a fact.","exampleCn":"那是一个事实。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-08","en":"million","phonetic":"/ˈmɪljən/","pos":"num.","cn":["百万"],"example":"There are millions of stars.","exampleCn":"有数百万颗星星。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-09","en":"problem","phonetic":"/ˈprɒbləm/","pos":"n.","cn":["问题","难题"],"example":"I can solve the problem.","exampleCn":"我能解决这个问题。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-10","en":"magic","phonetic":"/ˈmædʒɪk/","pos":"adj.","cn":["神奇的","魔法的"],"example":"It is a magic place.","exampleCn":"这是一个神奇的地方。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-11","en":"nature","phonetic":"/ˈneɪtʃə(r)/","pos":"n.","cn":["大自然","自然"],"example":"I love nature.","exampleCn":"我热爱大自然。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-12","en":"energy","phonetic":"/ˈenədʒi/","pos":"n.","cn":["能量","精力"],"example":"I have no energy.","exampleCn":"我没有精力了。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-13","en":"deep","phonetic":"/diːp/","pos":"adj.","cn":["深的","深刻的"],"example":"The river is very deep.","exampleCn":"这条河很深。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-14","en":"forests","phonetic":"/ˈfɒrɪsts/","pos":"n.","cn":["森林"],"example":"There are many forests.","exampleCn":"有很多森林。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-15","en":"ocean","phonetic":"/ˈəʊʃn/","pos":"n.","cn":["海洋"],"example":"The ocean is blue.","exampleCn":"海洋是蓝色的。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-16","en":"important","phonetic":"/ɪmˈpɔːtnt/","pos":"adj.","cn":["重要的"],"example":"This is very important.","exampleCn":"这非常重要。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-17","en":"pollute","phonetic":"/pəˈluːt/","pos":"v.","cn":["污染"],"example":"Don't pollute the river.","exampleCn":"不要污染河流。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-18","en":"recycle","phonetic":"/ˌriːˈsaɪkl/","pos":"v.","cn":["回收利用"],"example":"We should recycle paper.","exampleCn":"我们应该回收纸张。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-19","en":"plastic","phonetic":"/ˈplæstɪk/","pos":"n.","cn":["塑料"],"example":"Too much plastic is bad.","exampleCn":"太多的塑料有害。","grade":7,"semester":1,"unit":3},
-  {"id":"g7u3-20","en":"environment","phonetic":"/ɪnˈvaɪrənmənt/","pos":"n.","cn":["环境"],"example":"We must protect the environment.","exampleCn":"我们必须保护环境。","grade":7,"semester":1,"unit":3}
+  {
+    "id": "g7u3-01",
+    "en": "footprint",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "脚印",
+      "足迹"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-02",
+    "en": "wet",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "潮湿的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-03",
+    "en": "deep",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "深的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-04",
+    "en": "sandy",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "铺满沙子的",
+      "含沙的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-05",
+    "en": "kick",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "踢",
+      "踹"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-06",
+    "en": "town",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "镇",
+      "市镇"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-07",
+    "en": "feature",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "特色",
+      "特征"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-08",
+    "en": "south",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "南",
+      "南方"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-09",
+    "en": "clear",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "晴朗的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-10",
+    "en": "loudly",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "喧闹地",
+      "响亮地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-11",
+    "en": "thunder",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "雷"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-12",
+    "en": "lightning",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "闪电"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-13",
+    "en": "fresh",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "新鲜的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-14",
+    "en": "gather",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "采集(植物、水果等)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-15",
+    "en": "peaceful",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "安静的",
+      "平静的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-16",
+    "en": "snake",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "蛇"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-17",
+    "en": "through",
+    "phonetic": "",
+    "pos": "prep.",
+    "cn": [
+      "自始至终",
+      "从头到尾"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-18",
+    "en": "part",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "区域",
+      "地区"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-19",
+    "en": "article",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "文章"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-20",
+    "en": "reason",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "原因",
+      "理由"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-21",
+    "en": "alive",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "有生气",
+      "有活力"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-22",
+    "en": "sandcastle",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "沙堡"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-23",
+    "en": "follow",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "按……方式发展"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-24",
+    "en": "divide",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "(使)分开"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-25",
+    "en": "decide",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "对…作出抉择",
+      "决定"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-26",
+    "en": "crop",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "庄稼",
+      "作物"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-27",
+    "en": "culture",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "文化",
+      "文明"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-28",
+    "en": "local",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "地方的",
+      "当地的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-29",
+    "en": "tradition",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "传统"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-30",
+    "en": "continue",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "持续",
+      "继续存在"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-31",
+    "en": "have picnics",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "野餐"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-32",
+    "en": "work one's land",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "耕种土地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-33",
+    "en": "take a trip",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "去旅行"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-34",
+    "en": "solar term",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "节气"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-35",
+    "en": "in fact",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "事实上"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-36",
+    "en": "be divided into",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "被划分成…"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-37",
+    "en": "be based on",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "基于…"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-38",
+    "en": "play an important part in",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "在…上发挥重要作用"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 3
+  }
 ]

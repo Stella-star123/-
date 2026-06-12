@@ -25,3 +25,7 @@ npm-debug.log*
 # Database
 *.db
 *.db-journal
+
+# Raw source documents (not part of the project)
+*.docx
+*.xlsx
