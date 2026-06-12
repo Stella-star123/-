@@ -1,0 +1,433 @@
+[
+  {
+    "id": "g8u8-01",
+    "en": "attack",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "袭击",
+      "攻击"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-02",
+    "en": "faithful",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "忠实的",
+      "忠诚的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-03",
+    "en": "hold",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "抱着",
+      "拿着"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-04",
+    "en": "responsible",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "可信任的",
+      "可信赖的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-05",
+    "en": "awake",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "醒着"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-06",
+    "en": "flat",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "公寓"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-07",
+    "en": "choice",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "选择"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-08",
+    "en": "advise",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "劝告",
+      "建议"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-09",
+    "en": "cause",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "引起:造成:导致"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-10",
+    "en": "complain",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "抱怨",
+      "投诉"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-11",
+    "en": "litter",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "垃圾"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-12",
+    "en": "unlikely",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "不大可能发生的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-13",
+    "en": "relieve",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "方便",
+      "解手"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-14",
+    "en": "indoors",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "在室内"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-15",
+    "en": "magical",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "有魔力的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-16",
+    "en": "wealth",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "钱财",
+      "财富"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-17",
+    "en": "queen",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "女王",
+      "王后"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-18",
+    "en": "servant",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "人",
+      "佣人"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-19",
+    "en": "pride",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "自豪",
+      "骄傲"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-20",
+    "en": "among",
+    "phonetic": "",
+    "pos": "prep.",
+    "cn": [
+      "在......中"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-21",
+    "en": "relationship",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "关系"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-22",
+    "en": "grow up",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "长大;成熟"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-23",
+    "en": "care for",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "照顾;照料"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-24",
+    "en": "in short",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "总之;简言之"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-25",
+    "en": "have no choice but to do",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "别无;只能......"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-26",
+    "en": "run free",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "四处自由走动"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-27",
+    "en": "lie around",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "懒散度日;游手好闲"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-28",
+    "en": "complain about",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "抱怨"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-29",
+    "en": "in addition",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "除......以外(还)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g8u8-30",
+    "en": "catch the eye of somebody",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "引起某人的注意"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 8
+  }
+]

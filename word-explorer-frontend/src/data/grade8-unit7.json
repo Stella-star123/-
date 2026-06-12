@@ -1,0 +1,448 @@
+[
+  {
+    "id": "g8u7-01",
+    "en": "regularly",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "有规律地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-02",
+    "en": "repeat",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "重复"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-03",
+    "en": "note",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "笔记",
+      "记录"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-04",
+    "en": "visual",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "视觉的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-05",
+    "en": "mentally",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "精神上"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-06",
+    "en": "link",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "联系",
+      "相联系"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-07",
+    "en": "list",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "清单"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-08",
+    "en": "especially",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "尤其"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-09",
+    "en": "diet",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "日常饮食"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-10",
+    "en": "maintain",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "维持",
+      "保持"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-11",
+    "en": "nut",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "坚果"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-12",
+    "en": "relax",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "放松",
+      "休息"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-13",
+    "en": "stressed",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "心力交瘁的",
+      "焦虑不安的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-14",
+    "en": "tend",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "会",
+      "常常就"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-15",
+    "en": "normal",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "正常的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-16",
+    "en": "loss",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "丧失",
+      "损失"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-17",
+    "en": "fork",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "餐叉"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-18",
+    "en": "onion",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "洋葱"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-19",
+    "en": "ant",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "蚂蚁"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-20",
+    "en": "context",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "上下文",
+      "语境"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-21",
+    "en": "image",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "图像"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-22",
+    "en": "sense",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "感觉官能(即视、听嗅、味、触五觉)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-23",
+    "en": "summary",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "总结",
+      "概括"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-24",
+    "en": "contain",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "包含",
+      "含有"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-25",
+    "en": "particular",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "专指的",
+      "特指的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-26",
+    "en": "chemistry",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "化学质",
+      "化学"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-27",
+    "en": "flashcard",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "识字卡片"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-28",
+    "en": "make a point of doing something",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "(因重要或必要)保证做"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-29",
+    "en": "last but not least",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "最后但同样重要的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-30",
+    "en": "natural disaster",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "自然灾害"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g8u7-31",
+    "en": "figure out",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "弄懂;弄清楚"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 7
+  }
+]

@@ -1,0 +1,431 @@
+[
+  {
+    "id": "g8u5-01",
+    "en": "exchange",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "交流"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-02",
+    "en": "nervous",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "焦虑的",
+      "担忧的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-03",
+    "en": "grateful",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "感激的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-04",
+    "en": "chopstick",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "筷子"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-05",
+    "en": "Tour",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "旅行",
+      "旅游"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-06",
+    "en": "taichi",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "太极(拳)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-07",
+    "en": "yet",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "尚(未)",
+      "还",
+      "仍"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-08",
+    "en": "independent",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "自主的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-09",
+    "en": "content",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "内容"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-10",
+    "en": "feeling",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "感觉",
+      "感情"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-11",
+    "en": "shock",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "震惊",
+      "令人震惊的事"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-12",
+    "en": "foreign",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "外国的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-13",
+    "en": "confused",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "糊涂的",
+      "迷惑的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-14",
+    "en": "anxious",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "焦虑的",
+      "忧虑的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-15",
+    "en": "phase",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "阶段",
+      "时期"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-16",
+    "en": "honeymoon",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "蜜月"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-17",
+    "en": "unfamiliar",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "陌生的不熟悉的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-18",
+    "en": "homesick",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "想家的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-19",
+    "en": "lonely",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "孤独的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-20",
+    "en": "deal",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "对付",
+      "应付"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-21",
+    "en": "expect",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "期待",
+      "盼望"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-22",
+    "en": "situation",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "情况"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-23",
+    "en": "accept",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "接受"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-24",
+    "en": "adaptation",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "适应"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-25",
+    "en": "Beijing opera",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "京剧"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-26",
+    "en": "host family",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "寄宿家庭"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-27",
+    "en": "snake its way",
+    "phonetic": "",
+    "pos": "",
+    "cn": [],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-28",
+    "en": "culture shock",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "文化冲击"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-29",
+    "en": "deal with",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "解决;处理"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g8u5-30",
+    "en": "feel at home",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "感到舒适自在"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 5
+  }
+]

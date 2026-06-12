@@ -1,0 +1,407 @@
+[
+  {
+    "id": "g8u1-01",
+    "en": "dinosaur",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "恐龙"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-02",
+    "en": "intelligent",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "有才智的",
+      "聪明的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-03",
+    "en": "talented",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "有才能的",
+      "天才的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-04",
+    "en": "artistic",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "有艺术天赋的",
+      "(尤指)有美术才能的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-05",
+    "en": "perhaps",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "可能",
+      "大概",
+      "也许"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-06",
+    "en": "notebook",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "笔记本"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-07",
+    "en": "vehicle",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "交通工具",
+      "车辆"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-08",
+    "en": "prehistoric",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "史前的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-09",
+    "en": "completely",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "完全地",
+      "彻底地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-10",
+    "en": "original",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "原来的",
+      "起初的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-11",
+    "en": "birth",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "出生"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-12",
+    "en": "suffering",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "苦难",
+      "疼痛"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-13",
+    "en": "artist",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "艺术家",
+      "(尤指画家"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-14",
+    "en": "death",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "死",
+      "死亡"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-15",
+    "en": "whole",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "全部的",
+      "所有的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-16",
+    "en": "piece",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "一首，一篇(作品)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-17",
+    "en": "editor",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(书籍的)编辑"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-18",
+    "en": "organize",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "安排",
+      "组织"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-19",
+    "en": "order",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "顺序"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-20",
+    "en": "record",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "记录"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-21",
+    "en": "die out",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "灭绝"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-22",
+    "en": "a type of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "一种"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-23",
+    "en": "be related to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "与......属于同一种类"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-24",
+    "en": "general education",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "通识教育"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-25",
+    "en": "go back along way",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "历史悠久"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-26",
+    "en": "be similar to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "与......相似"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-27",
+    "en": "alphabetical order",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "字母顺序"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  },
+  {
+    "id": "g8u1-28",
+    "en": "play an important role",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "起到重要作用"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 1
+  }
+]

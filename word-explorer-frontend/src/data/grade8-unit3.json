@@ -1,0 +1,646 @@
+[
+  {
+    "id": "g8u3-01",
+    "en": "network",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "网络"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-02",
+    "en": "flood",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "洪水",
+      "水灾"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-03",
+    "en": "multimedia",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "多媒体"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-04",
+    "en": "expert",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "专家"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-05",
+    "en": "mobile",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "可移动的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-06",
+    "en": "payment",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "付款",
+      "支付"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-07",
+    "en": "warn",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "提醒注意",
+      "警告"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-08",
+    "en": "treatment",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "治疗",
+      "疗法"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-09",
+    "en": "data",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "数据"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-10",
+    "en": "company",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "公司"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-11",
+    "en": "traffic",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "路上行驶的车辆",
+      "交通"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-12",
+    "en": "flow",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "(人或事物)涌流",
+      "流动"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-13",
+    "en": "smoothly",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "平稳地",
+      "连续而流畅地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-14",
+    "en": "laptop",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "笔记本电脑"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-15",
+    "en": "screen",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "屏幕"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-16",
+    "en": "weight",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "重量"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-17",
+    "en": "digital",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "数码的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-18",
+    "en": "social",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "社交的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-19",
+    "en": "message",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(书面或口头的)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-20",
+    "en": "interview",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "采访"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-21",
+    "en": "positive",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "正面的",
+      "积极的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-22",
+    "en": "negative",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "消极的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-23",
+    "en": "effect",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "影响"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-24",
+    "en": "opinion",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "意见",
+      "看法"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-25",
+    "en": "novel",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(长篇)小说"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-26",
+    "en": "comment",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "评论"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-27",
+    "en": "basis",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "基础"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-28",
+    "en": "microprocessor",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "微处理器"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-29",
+    "en": "microchip",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "微芯片",
+      "芯片"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-30",
+    "en": "major",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "主要的",
+      "重要的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-31",
+    "en": "breakthrough",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "突破",
+      "重大进展"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-32",
+    "en": "electronic",
+    "phonetic": "",
+    "pos": "adi.",
+    "cn": [
+      "电子的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-33",
+    "en": "software",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "软件"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-34",
+    "en": "app",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(application的缩写)应用程序",
+      "应用软件"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-35",
+    "en": "era",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "时代",
+      "纪元"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-36",
+    "en": "download",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "下载"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-37",
+    "en": "tiny",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "微小的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-38",
+    "en": "connect to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "连接"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-39",
+    "en": "bring big changes to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "给......带来重大变化"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-40",
+    "en": "mobile payment",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "移动支付"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-41",
+    "en": "take...for example",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "以......为例"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-42",
+    "en": "rubbish bin",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "垃圾箱"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-43",
+    "en": "social media",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "社交媒体"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-44",
+    "en": "In person",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "亲自;亲身"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  },
+  {
+    "id": "g8u3-45",
+    "en": "the general public",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "公众;大众"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 3
+  }
+]

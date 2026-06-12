@@ -1,0 +1,466 @@
+[
+  {
+    "id": "g8u6-01",
+    "en": "author",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "作者",
+      "作家"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-02",
+    "en": "remains",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "遗迹",
+      "遗址"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-03",
+    "en": "locate",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "把......安置在(或建造于)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-04",
+    "en": "soldier",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "士"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-05",
+    "en": "captain",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "首领",
+      "领导者"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-06",
+    "en": "empty",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-07",
+    "en": "victory",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "胜利",
+      "成功"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-08",
+    "en": "joke",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "笑话",
+      "玩笑"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-09",
+    "en": "midnight",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "午夜"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-10",
+    "en": "except",
+    "phonetic": "",
+    "pos": "prep.",
+    "cn": [
+      "除......之外"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-11",
+    "en": "hide",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "藏",
+      "隐蔽"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-12",
+    "en": "secretly",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "秘密地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-13",
+    "en": "enter",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "进来",
+      "进人"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-14",
+    "en": "succeed",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "达到目的",
+      "成功"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-15",
+    "en": "trick",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "诡计"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-16",
+    "en": "fight",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "打仗",
+      "战斗"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-17",
+    "en": "beat",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "打败(某人)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-18",
+    "en": "pretend",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "假装",
+      "佯装"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-19",
+    "en": "enemy",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "敌人"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-20",
+    "en": "fail",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "失败",
+      "未能(做到)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-21",
+    "en": "therefore",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "因此",
+      "所以"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-22",
+    "en": "within",
+    "phonetic": "",
+    "pos": "prep.",
+    "cn": [
+      "(某段时间)之内"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-23",
+    "en": "fill",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "(使)充满",
+      "(使)装满"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-24",
+    "en": "towards",
+    "phonetic": "",
+    "pos": "prep.",
+    "cn": [
+      "向",
+      "朝",
+      "对着"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-25",
+    "en": "attack",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "袭击",
+      "攻击"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-26",
+    "en": "fog",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "雾"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-27",
+    "en": "make jokes about",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "开......的玩笑"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-28",
+    "en": "Succeed in",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "在......方面成功"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-29",
+    "en": "be tired of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "厌烦"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-30",
+    "en": "goon board",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "上船"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-31",
+    "en": "be jealous of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "嫉妒"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g8u6-32",
+    "en": "be full of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "装满;充满"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 6
+  }
+]

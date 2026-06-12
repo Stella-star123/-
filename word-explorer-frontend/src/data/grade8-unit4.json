@@ -1,0 +1,579 @@
+[
+  {
+    "id": "g8u4-01",
+    "en": "balloon",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "气球"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-02",
+    "en": "wheel",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "轮",
+      "车轮"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-03",
+    "en": "central",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "在中心的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-04",
+    "en": "although",
+    "phonetic": "",
+    "pos": "conj.",
+    "cn": [
+      "虽然",
+      "尽管",
+      "即使"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-05",
+    "en": "attach",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "把......固",
+      "把......附(在......上)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-06",
+    "en": "pull",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "拉",
+      "拽",
+      "扯",
+      "拖"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-07",
+    "en": "international",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "国际的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-08",
+    "en": "path",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "小路",
+      "小径"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-09",
+    "en": "technique",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "技巧",
+      "技艺"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-10",
+    "en": "depend",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "需要",
+      "依靠"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-11",
+    "en": "doubt",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "疑惑",
+      "疑问"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-12",
+    "en": "personally",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "就个人意见"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-13",
+    "en": "prediction",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "预言",
+      "预测"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-14",
+    "en": "statement",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "说明"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-15",
+    "en": "benefit",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "益处",
+      "优势"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-16",
+    "en": "wing",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(飞行器的)翅膀",
+      "机翼"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-17",
+    "en": "distance",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "距离"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-18",
+    "en": "petrol",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "汽油"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-19",
+    "en": "avoid",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "避免",
+      "防止"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-20",
+    "en": "anywhere",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "在 (或去任何地方"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-21",
+    "en": "notice",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "看(或听)到",
+      "注意到"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-22",
+    "en": "type",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(印刷用的)活字"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-23",
+    "en": "mixture",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "混合物"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-24",
+    "en": "heat",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "加热",
+      "变热"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-25",
+    "en": "press",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "(被)压"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-26",
+    "en": "metal",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "金属"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-27",
+    "en": "steam locomotive",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "蒸汽机车"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-28",
+    "en": "crewed spacecraft",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "载人航天器"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-29",
+    "en": "on foot",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "步行"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-30",
+    "en": "a number of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "几个;若干"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-31",
+    "en": "take place",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "发生;进行"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-32",
+    "en": "for instance",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "例;比"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-33",
+    "en": "large amounts of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "大量"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-34",
+    "en": "international trade",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "国际贸易"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-35",
+    "en": "depend on",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "依靠;依赖"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-36",
+    "en": "3D printer 3D打印机",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "3D printer  3D打印机"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-37",
+    "en": "without doubt",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "毫无疑问"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-38",
+    "en": "of all time",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "自古以来;有史以来"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-39",
+    "en": "make fun of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "取笑;拿......开玩笑"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g8u4-40",
+    "en": "traffic jam",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "堵车;交通阻塞"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 4
+  }
+]

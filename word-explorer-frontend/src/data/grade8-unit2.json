@@ -1,0 +1,447 @@
+[
+  {
+    "id": "g8u2-01",
+    "en": "flight",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(尤指乘飞机的)航程"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-02",
+    "en": "schedule",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "日程安排"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-03",
+    "en": "everywhere",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "到",
+      "各个地方"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-04",
+    "en": "challenge",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "向 (某人)挑战"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-05",
+    "en": "prize",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "奖赏",
+      "奖励"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-06",
+    "en": "promise",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "承诺",
+      "保证"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-07",
+    "en": "chessboard",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "国际象棋棋盘"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-08",
+    "en": "silver",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "银"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-09",
+    "en": "reply",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "回复",
+      "答复"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-10",
+    "en": "hesitation",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "犹豫"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-11",
+    "en": "wonder",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "想知道",
+      "琢磨"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-12",
+    "en": "currently",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "目前",
+      "当前"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-13",
+    "en": "agree",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "同意",
+      "赞成"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-14",
+    "en": "per cent n.",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "百分之......"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-15",
+    "en": "check",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "检查",
+      "核查"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-16",
+    "en": "budget",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "预算"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-17",
+    "en": "province",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "省份"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-18",
+    "en": "sharply",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "急剧地",
+      "然大幅度地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-19",
+    "en": "count",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "计算(或清点)总数"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-20",
+    "en": "system",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "系统"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-21",
+    "en": "symbol",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "符号",
+      "记号"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-22",
+    "en": "represent",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "代表"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-23",
+    "en": "exactly",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "准确地",
+      "确切地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-24",
+    "en": "flight schedule",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "航班时刻表"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-25",
+    "en": "price tag",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "价格标签"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-26",
+    "en": "for a moment",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "片刻;一会儿"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-27",
+    "en": "without hesitation",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "毫不犹豫"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-28",
+    "en": "go up",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "上升"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-29",
+    "en": "go down",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "下降"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-30",
+    "en": "write down",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "写下;记下"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  },
+  {
+    "id": "g8u2-31",
+    "en": "in stead of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "代替;作为......的替换"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 1,
+    "unit": 2
+  }
+]
