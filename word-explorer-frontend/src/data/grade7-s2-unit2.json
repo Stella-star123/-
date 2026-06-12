@@ -1,0 +1,608 @@
+[
+  {
+    "id": "g7u2-01",
+    "en": "wine",
+    "phonetic": "/waɪn/",
+    "pos": "n.",
+    "cn": [
+      "葡萄酒"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-02",
+    "en": "cafe",
+    "phonetic": "/'kæfeɪ/",
+    "pos": "n.",
+    "cn": [
+      "咖啡馆",
+      "小餐馆"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-03",
+    "en": "coast",
+    "phonetic": "/kəʊst/",
+    "pos": "n.",
+    "cn": [
+      "海岸",
+      "海滨"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-04",
+    "en": "excellent",
+    "phonetic": "/ˈeksələnt/",
+    "pos": "adj.",
+    "cn": [
+      "优秀的",
+      "极好的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-05",
+    "en": "lie",
+    "phonetic": "/laɪ/",
+    "pos": "v.",
+    "cn": [
+      "位于",
+      "坐落在"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-06",
+    "en": "perfect",
+    "phonetic": "/ˈpɜːfɪkt/",
+    "pos": "adj.",
+    "cn": [
+      "正合适",
+      "完美"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-07",
+    "en": "rich",
+    "phonetic": "/rɪtʃ/",
+    "pos": "adj.",
+    "cn": [
+      "丰富多彩的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-08",
+    "en": "key",
+    "phonetic": "/ki:/",
+    "pos": "adj.",
+    "cn": [
+      "主要的",
+      "关键的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-09",
+    "en": "lift",
+    "phonetic": "/lɪft/",
+    "pos": "n.",
+    "cn": [
+      "电梯",
+      "升降机"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-10",
+    "en": "mostly",
+    "phonetic": "/ˈməʊstli/",
+    "pos": "adv.",
+    "cn": [
+      "主要地",
+      "通常"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-11",
+    "en": "motorcycle",
+    "phonetic": "/ˈməʊtəsaɪk(ə)l/",
+    "pos": "n.",
+    "cn": [
+      "摩托车"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-12",
+    "en": "receive",
+    "phonetic": "/rɪˈsiːv/",
+    "pos": "v.",
+    "cn": [
+      "接待",
+      "招待"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-13",
+    "en": "remain",
+    "phonetic": "/rɪˈmeɪn/",
+    "pos": "v.",
+    "cn": [
+      "仍然是",
+      "保持不变"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-14",
+    "en": "stair",
+    "phonetic": "/steə(r)/",
+    "pos": "n.",
+    "cn": [
+      "楼梯"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-15",
+    "en": "step",
+    "phonetic": "/step/",
+    "pos": "n.",
+    "cn": [
+      "台阶"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-16",
+    "en": "sightseeing",
+    "phonetic": "/'saɪtsi:ɪŋ/",
+    "pos": "n.",
+    "cn": [
+      "观光：游览"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-17",
+    "en": "address",
+    "phonetic": "/ə'dres/",
+    "pos": "n.",
+    "cn": [
+      "住址",
+      "地址"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-18",
+    "en": "destination",
+    "phonetic": "/ˌdestɪˈneɪʃn/",
+    "pos": "n.",
+    "cn": [
+      "目的地",
+      "终点"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-19",
+    "en": "imagine",
+    "phonetic": "/ɪˈmædʒɪn/",
+    "pos": "v.",
+    "cn": [
+      "想象",
+      "设想"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-20",
+    "en": "discover",
+    "phonetic": "/dɪˈskʌvə(r)/",
+    "pos": "v.",
+    "cn": [
+      "了解到",
+      "查明"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-21",
+    "en": "endangered",
+    "phonetic": "/ɪnˈdeɪndʒəd/",
+    "pos": "adj.",
+    "cn": [
+      "濒危的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-22",
+    "en": "government",
+    "phonetic": "/ˈɡʌvənmənt/",
+    "pos": "n.",
+    "cn": [
+      "政府"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-23",
+    "en": "huge",
+    "phonetic": "/hju:dʒ/",
+    "pos": "adj.",
+    "cn": [
+      "巨大的",
+      "极多的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-24",
+    "en": "range",
+    "phonetic": "/reɪndʒ/",
+    "pos": "n.",
+    "cn": [
+      "山脉"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-25",
+    "en": "snowmobile",
+    "phonetic": "/ˈsnəʊməbiːl/",
+    "pos": "n.",
+    "cn": [
+      "雪地机动车"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-26",
+    "en": "stretch",
+    "phonetic": "/stretʃ/",
+    "pos": "v.",
+    "cn": [
+      "延伸",
+      "绵延"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-27",
+    "en": "unique",
+    "phonetic": "/juˈniːk/",
+    "pos": "adj.",
+    "cn": [
+      "独待的",
+      "罕见的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-28",
+    "en": "volcano",
+    "phonetic": "/vɒlˈkeɪnəʊ/",
+    "pos": "n.",
+    "cn": [
+      "火山"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-29",
+    "en": "wild",
+    "phonetic": "/waɪld/",
+    "pos": "adj.",
+    "cn": [
+      "野生的",
+      "n.野生状态"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-30",
+    "en": "wolf",
+    "phonetic": "/wʊlf/",
+    "pos": "n.",
+    "cn": [
+      "狼"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-31",
+    "en": "department store",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "百货商店"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-32",
+    "en": "prefer to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "更喜欢"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-33",
+    "en": "by hand",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "用手工"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-34",
+    "en": "go sightseeing",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "去观光"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-35",
+    "en": "go on a trip",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "去旅行"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-36",
+    "en": "all year round",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "全年"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-37",
+    "en": "giant panda",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "大熊猫"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-38",
+    "en": "go hiking",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "去远足"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-39",
+    "en": "golden monkey",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "金丝猴"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-40",
+    "en": "hot spring",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "温泉"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-41",
+    "en": "in the wild",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "在野外"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g7u2-42",
+    "en": "set up",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "建立"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 2
+  }
+]

@@ -1,0 +1,477 @@
+[
+  {
+    "id": "g7u6-01",
+    "en": "battery",
+    "phonetic": "/'bætəri/",
+    "pos": "n.",
+    "cn": [
+      "电池"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-02",
+    "en": "electricity",
+    "phonetic": "/ɪˌlekˈtrɪsəti/",
+    "pos": "n.",
+    "cn": [
+      "电",
+      "电能"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-03",
+    "en": "apartment",
+    "phonetic": "/ə'pa:tmənt/",
+    "pos": "n.",
+    "cn": [
+      "公寓套房"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-04",
+    "en": "fridge",
+    "phonetic": "/frɪdʒ/",
+    "pos": "n.",
+    "cn": [
+      "冰箱"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-05",
+    "en": "household",
+    "phonetic": "/ˈhaʊshəʊld/",
+    "pos": "adj.",
+    "cn": [
+      "家庭的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-06",
+    "en": "switch-off",
+    "phonetic": "/ˈswɪtʃɔf/",
+    "pos": "adj.",
+    "cn": [
+      "关闭(电灯、机器等"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-07",
+    "en": "tablet",
+    "phonetic": "/ˈtæblət/",
+    "pos": "n.",
+    "cn": [
+      "平板电脑"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-08",
+    "en": "task",
+    "phonetic": "/ta:sk/",
+    "pos": "n.",
+    "cn": [
+      "任务",
+      "活动"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-09",
+    "en": "video game",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "电子游戏"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-10",
+    "en": "while",
+    "phonetic": "/waɪl/",
+    "pos": "n.",
+    "cn": [
+      "一段时间",
+      "一会儿"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-11",
+    "en": "yogurt",
+    "phonetic": "/ˈjɒɡət/",
+    "pos": "n.",
+    "cn": [
+      "酸奶"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-12",
+    "en": "against",
+    "phonetic": "/əˈɡenst/",
+    "pos": "prep.",
+    "cn": [
+      "紧靠",
+      "碰",
+      "撞"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-13",
+    "en": "speed",
+    "phonetic": "/spiːd/",
+    "pos": "n.",
+    "cn": [
+      "速度",
+      "速率"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-14",
+    "en": "connect",
+    "phonetic": "/kəˈnekt/",
+    "pos": "v.",
+    "cn": [
+      "（使）连接"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-15",
+    "en": "device",
+    "phonetic": "/dɪˈvaɪs/",
+    "pos": "n.",
+    "cn": [
+      "装置",
+      "设备"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-16",
+    "en": "instructionn",
+    "phonetic": "/ɪnˈstrʌkʃn/",
+    "pos": "",
+    "cn": [
+      "用法说明",
+      "操作指南"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-17",
+    "en": "safety",
+    "phonetic": "/'seɪfti/",
+    "pos": "n.",
+    "cn": [
+      "安全",
+      "平安"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-18",
+    "en": "rule",
+    "phonetic": "/ru:l/",
+    "pos": "n.",
+    "cn": [
+      "规则",
+      "条例"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-19",
+    "en": "power",
+    "phonetic": "/ˈpaʊə/",
+    "pos": "v.",
+    "cn": [
+      "驱动",
+      "推动(机器或车辆)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-20",
+    "en": "landmark",
+    "phonetic": "/ˈlændmɑ:k/",
+    "pos": "n.",
+    "cn": [
+      "地标"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-21",
+    "en": "climate",
+    "phonetic": "/'klaɪmət/",
+    "pos": "n.",
+    "cn": [
+      "气候"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-22",
+    "en": "amount",
+    "phonetic": "/ə'maunt/",
+    "pos": "n.",
+    "cn": [
+      "数量",
+      "数额"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-23",
+    "en": "air conditioner",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "空调机",
+      "空调设备"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-24",
+    "en": "have something in common",
+    "phonetic": "",
+    "pos": "",
+    "cn": [],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-25",
+    "en": "light bulb",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "电灯泡"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-26",
+    "en": "go bad",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "变质"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-27",
+    "en": "run out of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "用完",
+      "耗尽"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-28",
+    "en": "electric car",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "电动汽车"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-29",
+    "en": "electrical appliance",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "电器"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-30",
+    "en": "television set",
+    "phonetic": "/ˈtelɪvɪʒn/",
+    "pos": "",
+    "cn": [
+      "电视机"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-31",
+    "en": "climate change",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "气候变化"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-32",
+    "en": "care about",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "关注:担忧"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-33",
+    "en": "join in",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "参加",
+      "加入"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 6
+  }
+]

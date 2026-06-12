@@ -1,0 +1,530 @@
+[
+  {
+    "id": "g7u5-01",
+    "en": "everyday",
+    "phonetic": "/ˈevrideɪ/",
+    "pos": "adj.",
+    "cn": [
+      "每天的",
+      "日常的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-02",
+    "en": "form",
+    "phonetic": "/fɔ:m/",
+    "pos": "n.",
+    "cn": [
+      "类型",
+      "种类"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-03",
+    "en": "journey",
+    "phonetic": "/ˈdʒɜ：ni/",
+    "pos": "n.",
+    "cn": [
+      "(尤指长途)旅行"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-04",
+    "en": "pipe",
+    "phonetic": "/paɪp/",
+    "pos": "n.",
+    "cn": [
+      "管子",
+      "管道"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-05",
+    "en": "return",
+    "phonetic": "/rɪ'tɜːn/",
+    "pos": "v.",
+    "cn": [
+      "回去",
+      "返回"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-06",
+    "en": "rush",
+    "phonetic": "/rʌʃ/",
+    "pos": "v.",
+    "cn": [
+      "迅速移动"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-07",
+    "en": "tap",
+    "phonetic": "/tæp/",
+    "pos": "n.",
+    "cn": [
+      "水龙头"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-08",
+    "en": "drop",
+    "phonetic": "/drɒp/",
+    "pos": "n.",
+    "cn": [
+      "滴",
+      "水珠"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-09",
+    "en": "voice",
+    "phonetic": "/vɔɪs/",
+    "pos": "n.",
+    "cn": [
+      "说话声"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-10",
+    "en": "eventually",
+    "phonetic": "/ɪˈventʃuəli/",
+    "pos": "adv.",
+    "cn": [
+      "最后",
+      "终于"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-11",
+    "en": "bath",
+    "phonetic": "/ba:θ/",
+    "pos": "n.",
+    "cn": [
+      "洗澡",
+      "洗浴"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-12",
+    "en": "brain",
+    "phonetic": "/breɪn/",
+    "pos": "n.",
+    "cn": [
+      "脑"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-13",
+    "en": "salt",
+    "phonetic": "/sɔ:lt/",
+    "pos": "adj.",
+    "cn": [
+      "含盐的",
+      "咸的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-14",
+    "en": "fix",
+    "phonetic": "/fɪks/",
+    "pos": "v.",
+    "cn": [
+      "修理"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-15",
+    "en": "public",
+    "phonetic": "/'pʌblɪk/",
+    "pos": "adj.",
+    "cn": [
+      "公共的",
+      "公开的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-16",
+    "en": "agriculture",
+    "phonetic": "/ˈæɡrɪˌkʌltʃə(r)/",
+    "pos": "n.",
+    "cn": [
+      "农业"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-17",
+    "en": "business",
+    "phonetic": "/'bɪznəs/",
+    "pos": "n.",
+    "cn": [
+      "买卖",
+      "生意"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-18",
+    "en": "duty",
+    "phonetic": "/dju:ti/",
+    "pos": "n.",
+    "cn": [
+      "责任",
+      "义务"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-19",
+    "en": "goods",
+    "phonetic": "/ɡʊdz/",
+    "pos": "n.",
+    "cn": [
+      "商品",
+      "货品"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-20",
+    "en": "industry",
+    "phonetic": "/'indʌstri/",
+    "pos": "n.",
+    "cn": [
+      "工业",
+      "生产制造"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-21",
+    "en": "leisure",
+    "phonetic": "/ˈleʒə(r)/",
+    "pos": "n.",
+    "cn": [
+      "闲暇",
+      "空闲",
+      "休闲"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-22",
+    "en": "overseas",
+    "phonetic": "/ˌəʊvəˈsiːz/",
+    "pos": "adv.",
+    "cn": [
+      "在国外",
+      "向海外"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-23",
+    "en": "role",
+    "phonetic": "/rəʊl/",
+    "pos": "n.",
+    "cn": [
+      "角色"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-24",
+    "en": "throughout",
+    "phonetic": "/θruːˈaʊt/",
+    "pos": "prep.",
+    "cn": [
+      "自始至终:贯穿"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-25",
+    "en": "trade",
+    "phonetic": "/treɪd/",
+    "pos": "n.",
+    "cn": [
+      "贸易",
+      "买卖"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-26",
+    "en": "business",
+    "phonetic": "/'bɪznəs/",
+    "pos": "n.",
+    "cn": [
+      "买卖",
+      "生意"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-27",
+    "en": "global",
+    "phonetic": "/ˈɡləʊbl/",
+    "pos": "adj.",
+    "cn": [
+      "全球的",
+      "全世界的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-28",
+    "en": "population",
+    "phonetic": "/ˌpɒpjuˈleɪʃn/",
+    "pos": "n.",
+    "cn": [
+      "人口"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-29",
+    "en": "duty",
+    "phonetic": "/dju:ti/",
+    "pos": "n.",
+    "cn": [
+      "责任",
+      "义务"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-30",
+    "en": "a bit",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "有点儿",
+      "稍微"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-31",
+    "en": "at once",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "立即",
+      "马上"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-32",
+    "en": "drinking water",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "饮用水"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-33",
+    "en": "as a result",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "作为结果",
+      "因此"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-34",
+    "en": "make sure",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "确保",
+      "设法保证"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-35",
+    "en": "play a role in",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "（在...中）扮演一个角色"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-36",
+    "en": "steam engine",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "蒸汽机"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 5
+  }
+]

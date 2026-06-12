@@ -1,0 +1,508 @@
+[
+  {
+    "id": "g7u4-01",
+    "en": "blind",
+    "phonetic": "/blaɪnd/",
+    "pos": "adj.",
+    "cn": [
+      "瞎的",
+      "失明的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-02",
+    "en": "dolphin",
+    "phonetic": "/ˈdɒlfɪn/",
+    "pos": "n.",
+    "cn": [
+      "海豚"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-03",
+    "en": "hen",
+    "phonetic": "/hen/",
+    "pos": "n.",
+    "cn": [
+      "母鸡"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-04",
+    "en": "wool",
+    "phonetic": "/wʊl/",
+    "pos": "n.",
+    "cn": [
+      "（羊等的）毛"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-05",
+    "en": "allow",
+    "phonetic": "/ə'lau/",
+    "pos": "v.",
+    "cn": [
+      "允许进入(或出去、通过)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-06",
+    "en": "apologize",
+    "phonetic": "/əˈpɒlədʒaɪz/",
+    "pos": "v.",
+    "cn": [
+      "道歉"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-07",
+    "en": "asleep",
+    "phonetic": "/ə'sli:p/",
+    "pos": "adj.",
+    "cn": [
+      "睡着"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-08",
+    "en": "fireman",
+    "phonetic": "/ˈfaɪəmən/",
+    "pos": "n.",
+    "cn": [
+      "消防队员"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-09",
+    "en": "receptionist",
+    "phonetic": "/rɪˈsepʃənɪst/",
+    "pos": "n.",
+    "cn": [
+      "接待员"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-10",
+    "en": "sir",
+    "phonetic": "/sɜː(r)/",
+    "pos": "n.",
+    "cn": [
+      "先生"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-11",
+    "en": "smoke",
+    "phonetic": "/sməʊk/",
+    "pos": "n.",
+    "cn": [
+      "烟"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-12",
+    "en": "disaster",
+    "phonetic": "/dɪˈzɑːstə(r)/",
+    "pos": "n.",
+    "cn": [
+      "灾难",
+      "灾害"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-13",
+    "en": "guest",
+    "phonetic": "/ɡest/",
+    "pos": "n.",
+    "cn": [
+      "旅客",
+      "房客"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-14",
+    "en": "search-and-rescue",
+    "phonetic": "/ˌsɜːtʃ/ /'reskju:/",
+    "pos": "n.",
+    "cn": [
+      "搜索救援"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-15",
+    "en": "service",
+    "phonetic": "/'sɜːvɪs/",
+    "pos": "n.",
+    "cn": [
+      "服务"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-16",
+    "en": "team",
+    "phonetic": "/ti:m/",
+    "pos": "n.",
+    "cn": [
+      "组",
+      "班"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-17",
+    "en": "type",
+    "phonetic": "/taɪp/",
+    "pos": "n.",
+    "cn": [
+      "类型",
+      "种类"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-18",
+    "en": "guard",
+    "phonetic": "/ɡɑːd/",
+    "pos": "v.",
+    "cn": [
+      "守卫",
+      "保卫"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-19",
+    "en": "honey",
+    "phonetic": "/'hʌni/",
+    "pos": "n.",
+    "cn": [
+      "蜂蜜"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-20",
+    "en": "material",
+    "phonetic": "/məˈtɪəriəl/",
+    "pos": "n.",
+    "cn": [
+      "材料",
+      "原料"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-21",
+    "en": "transport",
+    "phonetic": "/ˈtrænspɔːt/",
+    "pos": "v.",
+    "cn": [
+      "运输",
+      "运送"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-22",
+    "en": "either",
+    "phonetic": "/ˈaɪðə(r)/",
+    "pos": "adv.",
+    "cn": [
+      "也"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-23",
+    "en": "grey",
+    "phonetic": "/ɡreɪ/",
+    "pos": "adj.",
+    "cn": [
+      "灰色的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-24",
+    "en": "scared",
+    "phonetic": "/skeəd/",
+    "pos": "adj.",
+    "cn": [
+      "害怕",
+      "恐惧"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-25",
+    "en": "shark",
+    "phonetic": "/ʃɑːk/",
+    "pos": "n.",
+    "cn": [
+      "鲨鱼"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-26",
+    "en": "effort",
+    "phonetic": "/ˈefət/",
+    "pos": "n.",
+    "cn": [
+      "艰难的尝试",
+      "试图"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-27",
+    "en": "extinct",
+    "phonetic": "/ɪkˈstɪŋkt/",
+    "pos": "adj.",
+    "cn": [
+      "已灭绝的",
+      "绝种的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-28",
+    "en": "probably",
+    "phonetic": "/ˈprɒbəbli/",
+    "pos": "adv.",
+    "cn": [
+      "很可能",
+      "大概"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-29",
+    "en": "sometime",
+    "phonetic": "/ˈsʌmtaɪm/",
+    "pos": "adv.",
+    "cn": [
+      "在某时"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-30",
+    "en": "somewhere",
+    "phonetic": "/ˈsʌmweə(r)/",
+    "pos": "adv.",
+    "cn": [
+      "在某处",
+      "到某处"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-31",
+    "en": "source",
+    "phonetic": "/sɔːs/",
+    "pos": "n.",
+    "cn": [
+      "来源:出处"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-32",
+    "en": "fall asleep",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "人睡",
+      "睡着"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-33",
+    "en": "fire engine",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "消防车"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-34",
+    "en": "get down",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "俯身",
+      "趴下",
+      "跪下"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-35",
+    "en": "lead somebody to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "带着(某人)到"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 4
+  }
+]

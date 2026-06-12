@@ -1,0 +1,691 @@
+[
+  {
+    "id": "g7u7-01",
+    "en": "contribution",
+    "phonetic": "/ˌkɒntrɪˈbju:ʃn/",
+    "pos": "n.",
+    "cn": [
+      "贡献"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-02",
+    "en": "achieve",
+    "phonetic": "/ə'tʃi:v/",
+    "pos": "v.",
+    "cn": [
+      "达到(某目标、地位、标准)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-03",
+    "en": "approval",
+    "phonetic": "/ə'pru:vl/",
+    "pos": "n.",
+    "cn": [
+      "赞成",
+      "同意"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-04",
+    "en": "award",
+    "phonetic": "/ə'wɔ:d/",
+    "pos": "n.",
+    "cn": [
+      "奖",
+      "授予",
+      "奖励"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-05",
+    "en": "eager",
+    "phonetic": "/ˈiːɡə(r)/",
+    "pos": "adj.",
+    "cn": [
+      "热切的",
+      "渴望的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-06",
+    "en": "education",
+    "phonetic": "/ˌedʒuˈkeɪʃ(ə)n/",
+    "pos": "n.",
+    "cn": [
+      "教育"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-07",
+    "en": "engineering",
+    "phonetic": "/ˌendʒɪˈnɪərɪŋ/",
+    "pos": "n.",
+    "cn": [
+      "工程学"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-08",
+    "en": "found",
+    "phonetic": "/faʊnd/",
+    "pos": "v.",
+    "cn": [
+      "建立(城镇或国家)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-09",
+    "en": "hero",
+    "phonetic": "/ˈhɪərəʊ/",
+    "pos": "n.",
+    "cn": [
+      "英雄"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-10",
+    "en": "honour",
+    "phonetic": "/'ɒnə(r)/",
+    "pos": "n.",
+    "cn": [
+      "荣誉",
+      "名誉"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-11",
+    "en": "mission",
+    "phonetic": "/ˈmɪʃ(ə)n/",
+    "pos": "n.",
+    "cn": [
+      "使命"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-12",
+    "en": "pioneer",
+    "phonetic": "/ˌpaɪəˈnɪə/",
+    "pos": "n.",
+    "cn": [
+      "先锋",
+      "先驱"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-13",
+    "en": "praise",
+    "phonetic": "/preɪz/",
+    "pos": "n.",
+    "cn": [
+      "赞扬",
+      "称赞",
+      "赞美"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-14",
+    "en": "public",
+    "phonetic": "/'pʌblɪk/",
+    "pos": "n.",
+    "cn": [
+      "百姓",
+      "民众"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-15",
+    "en": "raise",
+    "phonetic": "/reɪz/",
+    "pos": "v.",
+    "cn": [
+      "增加",
+      "提高"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-16",
+    "en": "receive",
+    "phonetic": "/rɪˈsiːv/",
+    "pos": "v.",
+    "cn": [
+      "拿到",
+      "接到",
+      "收到"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-17",
+    "en": "research",
+    "phonetic": "/rɪˈsɜːtʃ/",
+    "pos": "n.",
+    "cn": [
+      "研究",
+      "调查"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-18",
+    "en": "spend",
+    "phonetic": "/spend/",
+    "pos": "v.",
+    "cn": [
+      "花(时间)",
+      "度过"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-19",
+    "en": "technology",
+    "phonetic": "/tekˈnɒlədʒi/",
+    "pos": "n.",
+    "cn": [
+      "科技"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-20",
+    "en": "well-respected",
+    "phonetic": "/wel rɪˈspektɪd/",
+    "pos": "adj.",
+    "cn": [
+      "受尊敬的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-21",
+    "en": "female",
+    "phonetic": "/ˈfi:meɪl/",
+    "pos": "adj.",
+    "cn": [
+      "女的",
+      "女性的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-22",
+    "en": "society",
+    "phonetic": "/səˈsaɪəti/",
+    "pos": "n.",
+    "cn": [
+      "社会"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-23",
+    "en": "admire",
+    "phonetic": "/əd'maɪə(r)/",
+    "pos": "v.",
+    "cn": [
+      "钦佩",
+      "仰慕"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-24",
+    "en": "feed",
+    "phonetic": "/fi:d/",
+    "pos": "v.",
+    "cn": [
+      "养活",
+      "提供食物"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-25",
+    "en": "inspire",
+    "phonetic": "/ɪnˈspaɪə(r)/",
+    "pos": "v.",
+    "cn": [
+      "激励",
+      "鼓舞"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-26",
+    "en": "regular",
+    "phonetic": "/ˈreɡjələ(r)/",
+    "pos": "adj.",
+    "cn": [
+      "通常的",
+      "平常的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-27",
+    "en": "brave",
+    "phonetic": "/breɪv/",
+    "pos": "adj.",
+    "cn": [
+      "勇敢的",
+      "无畏的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-28",
+    "en": "otherwise",
+    "phonetic": "/ˈʌðəwaɪz/",
+    "pos": "adv.",
+    "cn": [
+      "否则",
+      "不然"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-29",
+    "en": "proud",
+    "phonetic": "/praud/",
+    "pos": "adj.",
+    "cn": [
+      "骄傲的",
+      "自豪的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-30",
+    "en": "smokejumper",
+    "phonetic": "/'sməʊkdʒʌmpə(r)/",
+    "pos": "n.",
+    "cn": [
+      "空降消防员"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-31",
+    "en": "survive",
+    "phonetic": "/səˈvaɪv/",
+    "pos": "v.",
+    "cn": [
+      "生存",
+      "存活"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-32",
+    "en": "thick",
+    "phonetic": "/θɪk/",
+    "pos": "adj.",
+    "cn": [
+      "茂密的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-33",
+    "en": "tool",
+    "phonetic": "/tuːl/",
+    "pos": "n.",
+    "cn": [
+      "工具"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-34",
+    "en": "tough",
+    "phonetic": "/tʌf/",
+    "pos": "adj.",
+    "cn": [
+      "健壮的",
+      "坚韧不拔的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-35",
+    "en": "certain",
+    "phonetic": "/'sɜ:tn/",
+    "pos": "adj.",
+    "cn": [
+      "某个",
+      "特定的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-36",
+    "en": "dead",
+    "phonetic": "/ded/",
+    "pos": "adj.",
+    "cn": [
+      "失去生命的",
+      "枯萎的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-37",
+    "en": "fit",
+    "phonetic": "/fɪt/",
+    "pos": "adj.",
+    "cn": [
+      "健壮的",
+      "健康的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-38",
+    "en": "kill",
+    "phonetic": "/kɪl/",
+    "pos": "v.",
+    "cn": [
+      "杀死",
+      "导致死亡"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-39",
+    "en": "role model",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "楷模",
+      "行为榜样"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-40",
+    "en": "devote yourself to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "献身",
+      "致力"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-41",
+    "en": "in the field of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "在...的领域"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-42",
+    "en": "college entrance examination",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "大学入学考试"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-43",
+    "en": "chief engineer",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "总工程师"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-44",
+    "en": "sugar pill",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "糖丸"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-45",
+    "en": "be able to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "能够"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-46",
+    "en": "be proud of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "为…而自豪"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-47",
+    "en": "put out",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "熄灭",
+      "扑灭"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 7
+  }
+]

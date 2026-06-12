@@ -1,0 +1,487 @@
+[
+  {
+    "id": "g7u8-01",
+    "en": "athlete",
+    "phonetic": "/ˈæθliːt/",
+    "pos": "n.",
+    "cn": [
+      "运动员"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-02",
+    "en": "biologist",
+    "phonetic": "/baɪ 'ɒlədʒist/",
+    "pos": "n.",
+    "cn": [
+      "生物学家"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-03",
+    "en": "instrument",
+    "phonetic": "/ˈɪnstrəmənt/",
+    "pos": "n.",
+    "cn": [
+      "乐器",
+      "仪器"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-04",
+    "en": "possible",
+    "phonetic": "/ˈpɒsəbl/",
+    "pos": "adj.",
+    "cn": [
+      "可能"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-05",
+    "en": "actually",
+    "phonetic": "/'æktʃuəli/",
+    "pos": "adv.",
+    "cn": [
+      "事实上"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-06",
+    "en": "audience",
+    "phonetic": "/'ɔ:diəns/",
+    "pos": "n.",
+    "cn": [
+      "观众",
+      "听众"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-07",
+    "en": "belt",
+    "phonetic": "/belt/",
+    "pos": "n.",
+    "cn": [
+      "腰带"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-08",
+    "en": "beyond",
+    "phonetic": "/'bɪjɒnd/",
+    "pos": "adv.",
+    "cn": [
+      "在另一边",
+      "在（或向）更远处"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-09",
+    "en": "career",
+    "phonetic": "/kə'rɪə/",
+    "pos": "n.",
+    "cn": [
+      "生涯",
+      "职业"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-10",
+    "en": "curious",
+    "phonetic": "/ˈkjʊəriəs/",
+    "pos": "adj.",
+    "cn": [
+      "求知欲强的",
+      "好奇的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-11",
+    "en": "diamond",
+    "phonetic": "/ˈdaɪəmənd/",
+    "pos": "n.",
+    "cn": [
+      "钻石"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-12",
+    "en": "extremely",
+    "phonetic": "/ɪkˈstri:mli/",
+    "pos": "adj.",
+    "cn": [
+      "极其",
+      "极端",
+      "非常"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-13",
+    "en": "host",
+    "phonetic": "/həʊst/",
+    "pos": "v.",
+    "cn": [
+      "主持"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-14",
+    "en": "increase",
+    "phonetic": "/in'kri:s/",
+    "pos": "v.",
+    "cn": [
+      "增长",
+      "增多",
+      "增加"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-15",
+    "en": "interest",
+    "phonetic": "/'intrast/",
+    "pos": "n.",
+    "cn": [
+      "兴趣",
+      "业余爱好"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-16",
+    "en": "lifetime",
+    "phonetic": "/ˈlaɪftaɪm/",
+    "pos": "n.",
+    "cn": [
+      "一生",
+      "终身"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-17",
+    "en": "lively",
+    "phonetic": "/ˈlaɪvli/",
+    "pos": "adj.",
+    "cn": [
+      "充满趣味的",
+      "令人兴奋的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-18",
+    "en": "shoot",
+    "phonetic": "/ʃu:t/",
+    "pos": "v.",
+    "cn": [
+      "冲",
+      "奔",
+      "飞驰"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-19",
+    "en": "sail",
+    "phonetic": "/seɪl/",
+    "pos": "v.",
+    "cn": [
+      "驾驶（或乘坐）帆船航行"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-20",
+    "en": "ability",
+    "phonetic": "/ə'bɪləti/",
+    "pos": "n.",
+    "cn": [
+      "才能",
+      "本领"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-21",
+    "en": "review",
+    "phonetic": "/rɪ'vju:/",
+    "pos": "n.",
+    "cn": [
+      "评论"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-22",
+    "en": "perform",
+    "phonetic": "/pəˈfɔːm/",
+    "pos": "v.",
+    "cn": [
+      "表演",
+      "表现"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-23",
+    "en": "compare",
+    "phonetic": "/kəmˈpeə(r)/",
+    "pos": "v.",
+    "cn": [
+      "将......比作"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-24",
+    "en": "hug",
+    "phonetic": "/hʌg/",
+    "pos": "n.",
+    "cn": [
+      "拥抱",
+      "搂抱"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-25",
+    "en": "kiss",
+    "phonetic": "/kɪs/",
+    "pos": "n.",
+    "cn": [
+      "吻"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-26",
+    "en": "lecture",
+    "phonetic": "/ˈlektʃə(r)/",
+    "pos": "n.",
+    "cn": [
+      "讲座",
+      "讲课",
+      "演讲"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-27",
+    "en": "method",
+    "phonetic": "/ˈmeθəd/",
+    "pos": "n.",
+    "cn": [
+      "方法",
+      "办法"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-28",
+    "en": "nowadays",
+    "phonetic": "/ˈnaʊədeɪz/",
+    "pos": "adv.",
+    "cn": [
+      "现今",
+      "现在",
+      "目前"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-29",
+    "en": "go outside",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "外出"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-30",
+    "en": "body language",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "肢体语言"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-31",
+    "en": "come true",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "实现",
+      "成为现实"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-32",
+    "en": "dream of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "梦想"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-33",
+    "en": "human being",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "人类"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 8
+  }
+]

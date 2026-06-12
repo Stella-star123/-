@@ -1,0 +1,503 @@
+[
+  {
+    "id": "g7u1-01",
+    "en": "advice",
+    "phonetic": "/əd'vaɪs/",
+    "pos": "n.",
+    "cn": [
+      "建议"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-02",
+    "en": "encourage",
+    "phonetic": "/ɪnˈkʌrɪdʒ/",
+    "pos": "v.",
+    "cn": [
+      "鼓励",
+      "激励"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-03",
+    "en": "attention",
+    "phonetic": "/ə'tenʃ(ə)n/",
+    "pos": "n.",
+    "cn": [
+      "专心",
+      "注意力"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-04",
+    "en": "bored",
+    "phonetic": "/bɔ:d/",
+    "pos": "adj.",
+    "cn": [
+      "（感到）厌的",
+      "烦闷的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-05",
+    "en": "cheerful",
+    "phonetic": "/'tʃɪəfl/",
+    "pos": "adj.",
+    "cn": [
+      "快乐的",
+      "离兴的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-06",
+    "en": "community",
+    "phonetic": "/kəˈmju:nəti/",
+    "pos": "n.",
+    "cn": [
+      "社区"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-07",
+    "en": "fried",
+    "phonetic": "/fraɪd/",
+    "pos": "adj.",
+    "cn": [
+      "油炸的",
+      "油煎的",
+      "炒的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-08",
+    "en": "future",
+    "phonetic": "/'fjuːtʃə(r)/",
+    "pos": "n.",
+    "cn": [
+      "将来",
+      "未来"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-09",
+    "en": "medical",
+    "phonetic": "/ˈmedɪk(ə)l/",
+    "pos": "adj.",
+    "cn": [
+      "医学的",
+      "医疗的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-10",
+    "en": "retire",
+    "phonetic": "/rɪtaɪə(r)/",
+    "pos": "v.",
+    "cn": [
+      "（令）退职",
+      "（使）退休"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-11",
+    "en": "seldom",
+    "phonetic": "/seldəm/",
+    "pos": "adj.",
+    "cn": [
+      "不常",
+      "很少",
+      "难得"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-12",
+    "en": "smart",
+    "phonetic": "/smɑːt/",
+    "pos": "adj.",
+    "cn": [
+      "聪明的",
+      "机敏的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-13",
+    "en": "soon",
+    "phonetic": "/suːn/",
+    "pos": "adv.",
+    "cn": [
+      "很快",
+      "马上",
+      "不久"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-14",
+    "en": "strict",
+    "phonetic": "/strɪkt/",
+    "pos": "adj.",
+    "cn": [
+      "要求严格的:严厉的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-15",
+    "en": "wherever",
+    "phonetic": "/weərˈevə(r)/",
+    "pos": "conj.",
+    "cn": [
+      "各处",
+      "处处",
+      "无论何地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-16",
+    "en": "relative",
+    "phonetic": "/ˈrelətɪv/",
+    "pos": "n.",
+    "cn": [
+      "亲戚",
+      "亲属"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-17",
+    "en": "uniform",
+    "phonetic": "/ˈjuːnɪfɔːm/",
+    "pos": "n.",
+    "cn": [
+      "制服",
+      "校服"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-18",
+    "en": "personality",
+    "phonetic": "/ˌpɜːsəˈnæləti/",
+    "pos": "n.",
+    "cn": [
+      "性格",
+      "个性"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-19",
+    "en": "characteristic",
+    "phonetic": "/ˌkærəktə'rɪstɪk/",
+    "pos": "n.",
+    "cn": [
+      "特点:品质"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-20",
+    "en": "active",
+    "phonetic": "/'æktɪv/",
+    "pos": "adj.",
+    "cn": [
+      "忙碌的",
+      "活跃的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-21",
+    "en": "competition",
+    "phonetic": "/ˌkɒmpəˈtɪʃn/",
+    "pos": "n.",
+    "cn": [
+      "比赛",
+      "竞赛"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-22",
+    "en": "smartphone",
+    "phonetic": "/'smɑːtfəʊn/",
+    "pos": "n.",
+    "cn": [
+      "智能手机"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-23",
+    "en": "topic",
+    "phonetic": "/ˈtɒpɪk/",
+    "pos": "n.",
+    "cn": [
+      "话题",
+      "标题"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-24",
+    "en": "wisely",
+    "phonetic": "/ˈwaɪzli/",
+    "pos": "adv.",
+    "cn": [
+      "聪明地",
+      "明智地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-25",
+    "en": "narrow",
+    "phonetic": "/ˈnærəʊ/",
+    "pos": "adj.",
+    "cn": [
+      "狭窄的",
+      "窄小的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-26",
+    "en": "online",
+    "phonetic": "/ˈnaʊədeɪz/",
+    "pos": "adj.",
+    "cn": [
+      "在线的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-27",
+    "en": "shower",
+    "phonetic": "/ʃaʊə(r)/",
+    "pos": "n.",
+    "cn": [
+      "淋浴"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-28",
+    "en": "site",
+    "phonetic": "/saɪt/",
+    "pos": "n.",
+    "cn": [
+      "建筑工地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-29",
+    "en": "superman",
+    "phonetic": "/ˈsuːpəmæn/",
+    "pos": "n.",
+    "cn": [
+      "超人"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-30",
+    "en": "give up",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "认输",
+      "放弃"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-31",
+    "en": "be strict about",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "对…要求严格"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-32",
+    "en": "in the future",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "在未来"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-33",
+    "en": "used t0",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "曾经"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  },
+  {
+    "id": "g7u1-34",
+    "en": "be worried about",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "担心"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 1
+  }
+]

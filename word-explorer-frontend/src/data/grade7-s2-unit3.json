@@ -1,0 +1,531 @@
+[
+  {
+    "id": "g7u3-01",
+    "en": "branch",
+    "phonetic": "/brɑ:ntʃ/",
+    "pos": "n.",
+    "cn": [
+      "树枝"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-02",
+    "en": "root",
+    "phonetic": "/ru:t/",
+    "pos": "n.",
+    "cn": [
+      "根",
+      "根茎"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-03",
+    "en": "convenient",
+    "phonetic": "/kənˈvi:niənt/",
+    "pos": "adj.",
+    "cn": [
+      "便利的",
+      "方便的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-04",
+    "en": "create",
+    "phonetic": "/kriˈeɪt/",
+    "pos": "v.",
+    "cn": [
+      "创造"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-05",
+    "en": "environment",
+    "phonetic": "/ɪnˈvaɪrənmənt/",
+    "pos": "n.",
+    "cn": [
+      "自然环境"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-06",
+    "en": "furniture",
+    "phonetic": "/ˈfɜ:nɪtʃə(r)/",
+    "pos": "n.",
+    "cn": [
+      "（可移动的）家具"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-07",
+    "en": "human",
+    "phonetic": "/ˈhju：mən/",
+    "pos": "n.",
+    "cn": [
+      "人口"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-08",
+    "en": "overlook",
+    "phonetic": "/ˌəʊvəˈlʊk/",
+    "pos": "v.",
+    "cn": [
+      "忽略",
+      "未注意到"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-09",
+    "en": "oxygen",
+    "phonetic": "/ˈɒksɪdʒən/",
+    "pos": "n.",
+    "cn": [
+      "氧",
+      "氧气"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-10",
+    "en": "silent",
+    "phonetic": "/'saɪlənt/",
+    "pos": "adj.",
+    "cn": [
+      "不说话的",
+      "沉默的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-11",
+    "en": "treat",
+    "phonetic": "/triːt/",
+    "pos": "v.",
+    "cn": [
+      "以...态度（方式）对待"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-12",
+    "en": "wood",
+    "phonetic": "/wʊd/",
+    "pos": "n.",
+    "cn": [
+      "木",
+      "木头"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-13",
+    "en": "communicate",
+    "phonetic": "/kəˈmju:nɪkeɪt/",
+    "pos": "v.",
+    "cn": [
+      "交流",
+      "沟通"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-14",
+    "en": "species",
+    "phonetic": "/ˈspiːʃiːz/",
+    "pos": "n.",
+    "cn": [
+      "种",
+      "物种"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-15",
+    "en": "borrow",
+    "phonetic": "/'bɒrəʊ/",
+    "pos": "n.",
+    "cn": [
+      "借",
+      "借用"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-16",
+    "en": "product",
+    "phonetic": "/ˈprɒdʌkt/",
+    "pos": "n.",
+    "cn": [
+      "产品",
+      "制品"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-17",
+    "en": "side",
+    "phonetic": "/saɪd/",
+    "pos": "n.",
+    "cn": [
+      "一面"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-18",
+    "en": "dig",
+    "phonetic": "/dɪɡ/",
+    "pos": "v.",
+    "cn": [
+      "掘（地）",
+      "挖（洞）"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-19",
+    "en": "hole",
+    "phonetic": "/həʊl/",
+    "pos": "n.",
+    "cn": [
+      "洞",
+      "孔",
+      "坑"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-20",
+    "en": "stick",
+    "phonetic": "/stɪk/",
+    "pos": "n.",
+    "cn": [
+      "棍",
+      "条"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-21",
+    "en": "accident",
+    "phonetic": "/æksɪdənt/",
+    "pos": "n.",
+    "cn": [
+      "意外",
+      "偶然的事"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-22",
+    "en": "character",
+    "phonetic": "/'kærəktə（r）/",
+    "pos": "n.",
+    "cn": [
+      "文字"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-23",
+    "en": "knowledge",
+    "phonetic": "/ˈnɒlɪdʒ/",
+    "pos": "n.",
+    "cn": [
+      "知识",
+      "学问"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-24",
+    "en": "spread",
+    "phonetic": "/spred/",
+    "pos": "v.",
+    "cn": [
+      "传播"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-25",
+    "en": "translation",
+    "phonetic": "/trænzˈleɪʃn/",
+    "pos": "n.",
+    "cn": [
+      "译文：译本"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-26",
+    "en": "greenhouse gas",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "温室气体"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-27",
+    "en": "take in",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "吸收",
+      "摄入"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-28",
+    "en": "be made of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "由…制成"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-29",
+    "en": "come from",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "来自"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-30",
+    "en": "for example",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "例如",
+      "譬如"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-31",
+    "en": "look around",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "环视",
+      "环顾",
+      "四下察看"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-32",
+    "en": "to begin with",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "首先",
+      "第一点"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-33",
+    "en": "communicate with",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "与......沟通"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-34",
+    "en": "call on",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "号召",
+      "动员",
+      "要求"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-35",
+    "en": "according to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "据(…所说)",
+      "按根据(...报道)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  },
+  {
+    "id": "g7u3-36",
+    "en": "by accident",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "偶然",
+      "意外地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 2,
+    "unit": 3
+  }
+]
