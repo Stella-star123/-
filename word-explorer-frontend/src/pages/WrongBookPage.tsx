@@ -72,10 +72,7 @@ export default function WrongBookPage() {
               >
                 <div className="flex items-start justify-between">
                   <div className="flex-1">
-                    <div className="flex items-center gap-2 mb-1">
-                      <h3 className="font-bold text-[#2D3436]">{w.en}</h3>
-                      <span className="text-xs text-[#636E72]">{w.phonetic}</span>
-                    </div>
+                    <h3 className="font-bold text-[#2D3436] mb-1">{w.en}</h3>
                     <p className="text-[#6C5CE7] font-semibold text-sm">{w.cn.join("、")}</p>
                     <p className="text-xs text-[#636E72] mt-1 italic">"{w.example}"</p>
                     <div className="flex items-center gap-3 mt-2 text-xs text-[#636E72]">

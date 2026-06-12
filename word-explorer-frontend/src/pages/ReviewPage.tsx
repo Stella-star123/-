@@ -114,7 +114,6 @@ export default function ReviewPage() {
                 <div className="flex items-center justify-between">
                   <div className="flex-1">
                     <h3 className="font-bold text-[#2D3436]">{w.en}</h3>
-                    <p className="text-sm text-[#636E72]">{w.phonetic}</p>
                     <p className="text-sm text-[#6C5CE7] mt-1">{w.cn.join("、")}</p>
                   </div>
                   <div className="flex gap-2">

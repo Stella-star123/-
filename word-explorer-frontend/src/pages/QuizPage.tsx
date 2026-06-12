@@ -14,20 +14,7 @@ import { useUserStore } from "../store/useUserStore";
 import type { QuizType, SentenceQuiz, WordEntry } from "../types/word";
 import { generateSentenceQuiz } from "../utils/sentenceGenerator";
 import { scoreTranslation } from "../utils/translationScorer";
-
-// 模拟词库（实际应从后端API加载）
-const MOCK_WORDS: WordEntry[] = [
-  { id: "1", en: "German", phonetic: "/ˈdʒɜːmən/", pos: "adj.", cn: ["德国的", "德国人的"], example: "I like German food.", exampleCn: "我喜欢德国食物。", grade: 7, semester: 1, unit: 1 },
-  { id: "2", en: "sound", phonetic: "/saʊnd/", pos: "n.", cn: ["声音", "声响"], example: "The sound is very nice.", exampleCn: "这声音很好听。", grade: 7, semester: 1, unit: 1 },
-  { id: "3", en: "hobby", phonetic: "/ˈhɒbi/", pos: "n.", cn: ["爱好", "业余爱好"], example: "My hobby is reading.", exampleCn: "我的爱好是阅读。", grade: 7, semester: 1, unit: 1 },
-  { id: "4", en: "country", phonetic: "/ˈkʌntri/", pos: "n.", cn: ["国家", "乡村"], example: "China is a great country.", exampleCn: "中国是一个伟大的国家。", grade: 7, semester: 1, unit: 1 },
-  { id: "5", en: "dream", phonetic: "/driːm/", pos: "n.", cn: ["梦想", "梦"], example: "I have a big dream.", exampleCn: "我有一个大梦想。", grade: 7, semester: 1, unit: 1 },
-  { id: "6", en: "everyone", phonetic: "/ˈevriwʌn/", pos: "pron.", cn: ["人人", "全部人"], example: "Everyone likes the game.", exampleCn: "每个人都喜欢这个游戏。", grade: 7, semester: 1, unit: 1 },
-  { id: "7", en: "Germany", phonetic: "/ˈdʒɜːməni/", pos: "n.", cn: ["德国"], example: "Germany is in Europe.", exampleCn: "德国在欧洲。", grade: 7, semester: 1, unit: 1 },
-  { id: "8", en: "mountain", phonetic: "/ˈmaʊntən/", pos: "n.", cn: ["山", "山脉"], example: "The mountain is very high.", exampleCn: "这座山很高。", grade: 7, semester: 1, unit: 1 },
-  { id: "9", en: "elder", phonetic: "/ˈeldə(r)/", pos: "adj.", cn: ["年长的", "资深的"], example: "My elder brother is tall.", exampleCn: "我的哥哥很高。", grade: 7, semester: 1, unit: 1 },
-  { id: "10", en: "friendly", phonetic: "/ˈfrendli/", pos: "adj.", cn: ["友好的", "友善的"], example: "He is very friendly.", exampleCn: "他非常友好。", grade: 7, semester: 1, unit: 1 },
-];
+import { loadWords } from "../utils/wordLoader";
 
 const QUIZ_TYPES: QuizType[] = ["en2cn", "cn2en", "spell", "listen", "match", "flashcard", "sentence"];
 
@@ -76,22 +63,40 @@ export default function QuizPage() {
   const [showResult, setShowResult] = useState<boolean>(false);
   const [isCorrect, setIsCorrect] = useState<boolean>(false);
   const [sentenceQuiz, setSentenceQuiz] = useState<SentenceQuiz | null>(null);
+  const [wordPool, setWordPool] = useState<WordEntry[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
 
-  // 初始化题目
+  // 初始化题目 - 动态加载词库
   useEffect(() => {
-    resetQuiz();
-    // 生成题目（混合7种题型）
-    const quizWords = MOCK_WORDS.slice(0, 10);
-    const quizQuestions: (WordEntry | SentenceQuiz)[] = quizWords.map((w) => {
-      const type = QUIZ_TYPES[Math.floor(Math.random() * QUIZ_TYPES.length)];
-      if (type === "sentence") {
-        return generateSentenceQuiz(w);
+    const initQuiz = async () => {
+      setLoading(true);
+      resetQuiz();
+      const g = parseInt(grade || "7");
+      const s = parseInt(semester || "1");
+      const u = parseInt(unit || "1");
+      const words = await loadWords(g, s, u);
+      setWordPool(words);
+
+      if (words.length === 0) {
+        setLoading(false);
+        return;
       }
-      return w;
-    });
-    setQuestions(quizQuestions);
+
+      // 取前20个单词或全部单词生成题目
+      const quizWords = words.slice(0, 20);
+      const quizQuestions: (WordEntry | SentenceQuiz)[] = quizWords.map((w) => {
+        const type = QUIZ_TYPES[Math.floor(Math.random() * QUIZ_TYPES.length)];
+        if (type === "sentence") {
+          return generateSentenceQuiz(w);
+        }
+        return w;
+      });
+      setQuestions(quizQuestions);
+      setLoading(false);
+    };
+    initQuiz();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [grade, unit]);
+  }, [grade, semester, unit]);
 
   // 当前题目
   const currentQ = questions[currentIndex];
@@ -186,7 +191,29 @@ export default function QuizPage() {
   }
 
   if (!currentQ) {
-    return <div className="flex items-center justify-center h-screen">加载中...</div>;
+    if (loading) {
+      return (
+        <div className="flex items-center justify-center h-screen">
+          <div className="text-center">
+            <div className="w-12 h-12 border-4 border-[#6C5CE7] border-t-transparent rounded-full animate-spin mx-auto mb-4" />
+            <p className="text-[#636E72]">加载词库中...</p>
+          </div>
+        </div>
+      );
+    }
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <div className="text-center">
+          <p className="text-[#636E72] text-lg mb-2">该单元暂无单词数据</p>
+          <button
+            onClick={() => navigate("/home")}
+            className="text-[#6C5CE7] underline"
+          >
+            返回首页
+          </button>
+        </div>
+      </div>
+    );
   }
 
   const word = !( "sentence" in currentQ) ? (currentQ as WordEntry) : null;
@@ -348,7 +375,6 @@ export default function QuizPage() {
               </div>
               <div className="text-center mb-6">
                 <h2 className="text-3xl font-bold text-[#2D3436] mb-1">{word.en}</h2>
-                <p className="text-[#636E72] text-sm">{word.phonetic}</p>
                 <button
                   onClick={() => speak(word.en)}
                   className="mt-2 text-[#6C5CE7] hover:text-[#5B4FCF] transition-colors"
@@ -358,7 +384,7 @@ export default function QuizPage() {
                 </button>
               </div>
               <div className="space-y-2">
-                {generateChoices(word.cn[0] || "", MOCK_WORDS.map((w) => w.cn[0] || "")).map((choice, i) => {
+                {generateChoices(word.cn[0] || "", wordPool.map((w) => w.cn[0] || "")).map((choice, i) => {
                   const isSelected = selectedAnswer === choice;
                   const isCorrectChoice = choice === (word.cn[0] || "").split(/[,，、]/)[0].trim();
                   let btnClass = "w-full p-3 rounded-xl border-2 text-left transition-all ";
@@ -402,7 +428,7 @@ export default function QuizPage() {
                 >
                   <Volume2 size={28} />
                 </button>
-                <p className="mt-2 text-sm text-[#636E72]">{word.phonetic} · {word.pos}</p>
+                <p className="mt-2 text-sm text-[#636E72]">{word.pos}</p>
                 <p className="mt-1 text-sm text-gray-400">释义：{word.cn.join("、")}</p>
               </div>
               <input
@@ -455,7 +481,6 @@ export default function QuizPage() {
                 }}
               >
                 <h2 className="text-3xl font-bold text-[#2D3436] mb-2">{word.en}</h2>
-                <p className="text-[#636E72]">{word.phonetic}</p>
                 {showResult && (
                   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-4">
                     <p className="text-lg text-[#6C5CE7] font-semibold">{word.cn.join("、")}</p>
