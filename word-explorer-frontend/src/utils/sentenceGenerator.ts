@@ -132,8 +132,10 @@ export function generateParagraph(words: WordEntry[]): { paragraph: string; word
 
 /**
  * 生成句子翻译题
+ * @param word 目标单词
+ * @param wordPool 同单元其他单词（用于生成动态干扰项），可选
  */
-export function generateSentenceQuiz(word: WordEntry): SentenceQuiz {
+export function generateSentenceQuiz(word: WordEntry, wordPool?: WordEntry[]): SentenceQuiz {
   const sentence = generateSentence(word);
   const questionType = Math.random() > 0.5 ? "fill" : "choice";
 
@@ -150,18 +152,44 @@ export function generateSentenceQuiz(word: WordEntry): SentenceQuiz {
   };
 
   if (questionType === "choice") {
-    // 生成3个干扰选项（使用通用干扰词）
-    const distractors = [
-      "一个很大的房子",
-      "每天跑步锻炼",
-      "非常高兴的",
-      "快速地奔跑",
-      "美丽的花朵",
-      "认真学习",
-      "好朋友",
-      "晴朗的天气",
-    ].filter((d) => d !== correct);
-    const selected = distractors.sort(() => 0.5 - Math.random()).slice(0, 3);
+    // 动态生成干扰选项：优先从同单元其他单词的释义中抽取
+    let distractors: string[] = [];
+
+    if (wordPool && wordPool.length > 0) {
+      // 从同单元词库中抽取其他单词的第一条释义作为干扰项
+      const poolCandidates = wordPool
+        .filter((w) => w.id !== word.id)
+        .map((w) => {
+          const firstCn = (w.cn[0] || "").split(/[,，、]/)[0].trim();
+          return firstCn;
+        })
+        .filter((cn) => cn && cn !== correct);
+
+      // 去重并随机抽取
+      const uniqueCandidates = [...new Set(poolCandidates)];
+      distractors = uniqueCandidates.sort(() => 0.5 - Math.random()).slice(0, 3);
+    }
+
+    // 如果同单元候选不够3个，用通用干扰项补足
+    if (distractors.length < 3) {
+      const fallbackDistractors = [
+        "一个很大的房子",
+        "每天跑步锻炼",
+        "非常高兴的",
+        "快速地奔跑",
+        "美丽的花朵",
+        "认真学习",
+        "好朋友",
+        "晴朗的天气",
+      ].filter((d) => d !== correct && !distractors.includes(d));
+      const needed = 3 - distractors.length;
+      distractors = [
+        ...distractors,
+        ...fallbackDistractors.sort(() => 0.5 - Math.random()).slice(0, needed),
+      ];
+    }
+
+    const selected = distractors.slice(0, 3);
     quiz.choices = [correct, ...selected].sort(() => 0.5 - Math.random());
   }
 

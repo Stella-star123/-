@@ -1,6 +1,7 @@
 import { Router, Request, Response } from "express";
 import { authMiddleware } from "../middleware/auth.middleware";
 import { PrismaClient } from "@prisma/client";
+import { findWordById, getWordEn } from "../utils/wordLoader";
 
 const router = Router();
 const prisma = new PrismaClient();
@@ -21,9 +22,41 @@ router.get("/due", authMiddleware, async (req: Request, res: Response) => {
       },
     });
 
+    // 丰富返回数据：为每个 review 记录附加完整单词信息
+    const enrichedReviews = dueReviews.map((review) => {
+      const word = findWordById(review.wordId);
+      return {
+        id: review.id,
+        wordId: review.wordId,
+        wordEn: review.wordEn,
+        repetitions: review.repetitions,
+        efactor: review.efactor,
+        interval: review.interval,
+        nextReviewAt: review.nextReviewAt,
+        lastQuality: review.lastQuality,
+        createdAt: review.createdAt,
+        updatedAt: review.updatedAt,
+        // 附加完整单词信息
+        word: word
+          ? {
+              id: word.id,
+              en: word.en,
+              phonetic: word.phonetic || "",
+              pos: word.pos || "",
+              cn: word.cn || [],
+              example: word.example || "",
+              exampleCn: word.exampleCn || "",
+              grade: word.grade,
+              semester: word.semester,
+              unit: word.unit,
+            }
+          : null,
+      };
+    });
+
     res.json({
-      total: dueReviews.length,
-      reviews: dueReviews,
+      total: enrichedReviews.length,
+      reviews: enrichedReviews,
     });
   } catch (error) {
     console.error("获取待复习列表错误:", error);
@@ -107,7 +140,7 @@ router.post("/submit", authMiddleware, async (req: Request, res: Response) => {
         data: {
           userId,
           wordId,
-          wordEn: wordId, // TODO: 从词库获取真实英文
+          wordEn: getWordEn(wordId),
           repetitions,
           efactor,
           interval,
@@ -143,9 +176,39 @@ router.get("/wrong-books", authMiddleware, async (req: Request, res: Response) =
       },
     });
 
+    // 丰富返回数据：为每个错题记录附加完整单词信息
+    const enrichedWrongWords = wrongWords.map((w) => {
+      const word = findWordById(w.wordId);
+      return {
+        id: w.id,
+        wordId: w.wordId,
+        wordEn: w.wordEn,
+        wrongCount: w.wrongCount,
+        lastWrongAt: w.lastWrongAt,
+        mastered: w.mastered,
+        createdAt: w.createdAt,
+        updatedAt: w.updatedAt,
+        // 附加完整单词信息
+        word: word
+          ? {
+              id: word.id,
+              en: word.en,
+              phonetic: word.phonetic || "",
+              pos: word.pos || "",
+              cn: word.cn || [],
+              example: word.example || "",
+              exampleCn: word.exampleCn || "",
+              grade: word.grade,
+              semester: word.semester,
+              unit: word.unit,
+            }
+          : null,
+      };
+    });
+
     res.json({
-      total: wrongWords.length,
-      wrongWords,
+      total: enrichedWrongWords.length,
+      wrongWords: enrichedWrongWords,
     });
   } catch (error) {
     console.error("获取错题本错误:", error);

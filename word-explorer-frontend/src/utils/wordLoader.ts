@@ -57,3 +57,32 @@ export async function preloadWords(
 ): Promise<void> {
   await loadWords(grade, semester, unit);
 }
+
+/**
+ * 根据 wordId 加载单个单词（遍历所有年级/学期/单元）
+ * wordId 格式如: "g7u1-01", "g8s2u3-05"
+ */
+export async function loadWordById(wordId: string): Promise<WordEntry | null> {
+  // 解析 wordId 获取年级、学期、单元信息
+  // 格式: g{grade}{s2?}u{unit}-{index}
+  const match = wordId.match(/^g(\d+)(s2)?u(\d+)-/);
+  if (match) {
+    const grade = parseInt(match[1]);
+    const semester = match[2] ? 2 : 1;
+    const unit = parseInt(match[3]);
+    const words = await loadWords(grade, semester, unit);
+    return words.find((w) => w.id === wordId) || null;
+  }
+
+  // 如果无法解析 wordId，遍历所有词库查找
+  for (let grade = 7; grade <= 8; grade++) {
+    for (let semester = 1; semester <= 2; semester++) {
+      for (let unit = 1; unit <= 8; unit++) {
+        const words = await loadWords(grade, semester, unit);
+        const found = words.find((w) => w.id === wordId);
+        if (found) return found;
+      }
+    }
+  }
+  return null;
+}

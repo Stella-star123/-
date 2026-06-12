@@ -1,24 +1,28 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Star, RotateCcw, ArrowRight, Trophy } from "lucide-react";
+import { Star, RotateCcw, ArrowRight, Trophy, AlertCircle, Loader2, RefreshCw } from "lucide-react";
 import { useQuizStore } from "../store/useQuizStore";
 import { useUserStore } from "../store/useUserStore";
+import { api } from "../utils/api";
 import type { WordEntry } from "../types/word";
-
-// 模拟词库（实际应从后端获取）
-const MOCK_WORDS: Record<string, WordEntry> = {
-  "1": { id: "1", en: "German", phonetic: "/ˈdʒɜːmən/", pos: "adj.", cn: ["德国的"], example: "I like German food.", exampleCn: "我喜欢德国食物。", grade: 7, unit: 1 },
-  "2": { id: "2", en: "sound", phonetic: "/saʊnd/", pos: "n.", cn: ["声音"], example: "The sound is nice.", exampleCn: "这声音很好听。", grade: 7, unit: 1 },
-  "3": { id: "3", en: "hobby", phonetic: "/ˈhɒbi/", pos: "n.", cn: ["爱好"], example: "My hobby is reading.", exampleCn: "我的爱好是阅读。", grade: 7, unit: 1 },
-  "4": { id: "4", en: "country", phonetic: "/ˈkʌntri/", pos: "n.", cn: ["国家"], example: "China is great.", exampleCn: "中国很伟大。", grade: 7, unit: 1 },
-  "5": { id: "5", en: "dream", phonetic: "/driːm/", pos: "n.", cn: ["梦想"], example: "I have a dream.", exampleCn: "我有一个梦想。", grade: 7, unit: 1 },
-};
 
 export default function ResultPage() {
   const navigate = useNavigate();
   const { user, setUser } = useUserStore();
-  const { answers, score, expGained, resetQuiz, questions } = useQuizStore();
+  const {
+    answers,
+    score,
+    expGained,
+    resetQuiz,
+    questions,
+    currentGrade,
+    currentSemester,
+    currentUnit,
+    submitStatus,
+    submitError,
+    setSubmitStatus,
+  } = useQuizStore();
 
   const [stars, setStars] = useState<number>(0);
   const [starAnimation, setStarAnimation] = useState<number>(0);
@@ -48,22 +52,47 @@ export default function ResultPage() {
     }
   }, [stars]);
 
-  // 更新用户经验值（模拟）
-  useEffect(() => {
-    if (user && expGained > 0) {
-      const newExp = user.exp + expGained;
-      const newLevel = Math.floor(newExp / 100) + 1;
-      const newExpToNext = 100 - (newExp % 100);
-      setUser({
-        ...user,
-        exp: newExp,
-        level: newLevel,
-        expToNextLevel: newExpToNext,
-        totalWords: user.totalWords + correctCount,
-      });
+  // 重试提交
+  const retrySubmit = useCallback(async () => {
+    setSubmitStatus("submitting");
+    try {
+      const payload = {
+        grade: currentGrade,
+        semester: currentSemester,
+        unit: currentUnit,
+        answers: answers.map((a) => ({
+          wordId: a.wordId,
+          isCorrect: a.isCorrect,
+          timeSpent: a.timeSpent,
+        })),
+        score,
+        expGained,
+      };
+
+      const result = await api.post<{ message: string; stars: number; newExp: number }>(
+        "/quiz/submit",
+        payload
+      );
+
+      setSubmitStatus("success");
+
+      if (user && result) {
+        const newExp = result.newExp || user.exp + expGained;
+        const newLevel = Math.floor(newExp / 100) + 1;
+        const newExpToNext = 100 - (newExp % 100);
+        setUser({
+          ...user,
+          exp: newExp,
+          level: newLevel,
+          expToNextLevel: newExpToNext,
+          totalWords: user.totalWords + correctCount,
+        });
+      }
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "提交失败";
+      setSubmitStatus("error", message);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [currentGrade, currentSemester, currentUnit, answers, score, expGained, user, setUser, setSubmitStatus, correctCount]);
 
   const handleRetry = () => {
     resetQuiz();
@@ -172,6 +201,41 @@ export default function ResultPage() {
           })}
         </div>
       </div>
+
+      {/* 提交状态提示 */}
+      <AnimatePresence>
+        {submitStatus === "submitting" && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0 }}
+            className="flex items-center justify-center gap-2 py-3 text-sm text-[#636E72]"
+          >
+            <Loader2 size={16} className="animate-spin text-[#6C5CE7]" />
+            正在保存学习记录...
+          </motion.div>
+        )}
+        {submitStatus === "error" && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0 }}
+            className="flex flex-col items-center gap-2 py-3"
+          >
+            <div className="flex items-center gap-2 text-sm text-red-500">
+              <AlertCircle size={16} />
+              保存失败：{submitError || "网络异常"}
+            </div>
+            <button
+              onClick={retrySubmit}
+              className="flex items-center gap-1 px-4 py-2 rounded-xl bg-red-50 text-red-600 text-sm hover:bg-red-100 transition-colors"
+            >
+              <RefreshCw size={14} />
+              重试保存
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* 操作按钮 */}
       <motion.div

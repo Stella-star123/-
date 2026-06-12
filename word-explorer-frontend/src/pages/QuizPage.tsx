@@ -1,5 +1,5 @@
-import { useState, useEffect, useCallback } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useState, useEffect, useCallback, useRef } from "react";
+import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Volume2,
@@ -11,10 +11,11 @@ import {
 } from "lucide-react";
 import { useQuizStore } from "../store/useQuizStore";
 import { useUserStore } from "../store/useUserStore";
+import { api } from "../utils/api";
 import type { QuizType, SentenceQuiz, WordEntry } from "../types/word";
 import { generateSentenceQuiz } from "../utils/sentenceGenerator";
 import { scoreTranslation } from "../utils/translationScorer";
-import { loadWords } from "../utils/wordLoader";
+import { loadWords, loadWordById } from "../utils/wordLoader";
 
 const QUIZ_TYPES: QuizType[] = ["en2cn", "cn2en", "spell", "listen", "match", "flashcard", "sentence"];
 
@@ -39,9 +40,14 @@ function speak(text: string) {
 export default function QuizPage() {
   const { grade, semester, unit } = useParams<{ grade: string; semester: string; unit: string }>();
   const navigate = useNavigate();
+  const location = useLocation();
+  const isWrongBookMode = location.pathname === "/quiz/review";
   const { user, setUser } = useUserStore();
   const {
     questions,
+    currentGrade,
+    currentSemester,
+    currentUnit,
     currentIndex,
     streak,
     isFlameMode,
@@ -49,11 +55,13 @@ export default function QuizPage() {
     isFinished,
     score,
     expGained,
+    setGradeSemesterUnit,
     setQuestions,
     setCurrentIndex,
     recordAnswer,
     nextQuestion,
     finishQuiz,
+    setSubmitStatus,
     resetQuiz,
   } = useQuizStore();
 
@@ -65,16 +73,39 @@ export default function QuizPage() {
   const [sentenceQuiz, setSentenceQuiz] = useState<SentenceQuiz | null>(null);
   const [wordPool, setWordPool] = useState<WordEntry[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
+  const submittedRef = useRef(false); // 防止重复提交
 
   // 初始化题目 - 动态加载词库
   useEffect(() => {
     const initQuiz = async () => {
       setLoading(true);
       resetQuiz();
-      const g = parseInt(grade || "7");
-      const s = parseInt(semester || "1");
-      const u = parseInt(unit || "1");
-      const words = await loadWords(g, s, u);
+      submittedRef.current = false;
+
+      let words: WordEntry[] = [];
+
+      if (isWrongBookMode) {
+        // 错题复习模式：从 sessionStorage 读取 wordId 列表，逐个加载
+        const raw = sessionStorage.getItem("wrongBookWordIds");
+        if (raw) {
+          const wordIds: string[] = JSON.parse(raw);
+          sessionStorage.removeItem("wrongBookWordIds"); // 读取后清除
+          const loaded: WordEntry[] = [];
+          for (const id of wordIds) {
+            const w = await loadWordById(id);
+            if (w) loaded.push(w);
+          }
+          words = loaded;
+          setGradeSemesterUnit(0, 0, 0); // 非标准单元
+        }
+      } else {
+        const g = parseInt(grade || "7");
+        const s = parseInt(semester || "1");
+        const u = parseInt(unit || "1");
+        setGradeSemesterUnit(g, s, u);
+        words = await loadWords(g, s, u);
+      }
+
       setWordPool(words);
 
       if (words.length === 0) {
@@ -87,7 +118,7 @@ export default function QuizPage() {
       const quizQuestions: (WordEntry | SentenceQuiz)[] = quizWords.map((w) => {
         const type = QUIZ_TYPES[Math.floor(Math.random() * QUIZ_TYPES.length)];
         if (type === "sentence") {
-          return generateSentenceQuiz(w);
+          return generateSentenceQuiz(w, words);
         }
         return w;
       });
@@ -96,7 +127,7 @@ export default function QuizPage() {
     };
     initQuiz();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [grade, semester, unit]);
+  }, [grade, semester, unit, isWrongBookMode]);
 
   // 当前题目
   const currentQ = questions[currentIndex];
@@ -122,6 +153,62 @@ export default function QuizPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentIndex, questions]);
 
+  /** 提取 wordId */
+  const getWordId = (q: WordEntry | SentenceQuiz): string => {
+    if ("sentence" in q) {
+      return (q as SentenceQuiz).wordEntry?.id || "";
+    }
+    return (q as WordEntry).id || "";
+  };
+
+  /** 提交答题结果到后端 */
+  const submitQuiz = useCallback(async () => {
+    if (submittedRef.current) return;
+    submittedRef.current = true;
+    setSubmitStatus("submitting");
+
+    try {
+      // 错题复习模式使用默认的 grade/semester/unit
+      const payload = {
+        grade: currentGrade || 7,
+        semester: currentSemester || 1,
+        unit: currentUnit || 1,
+        answers: answers.map((a) => ({
+          wordId: a.wordId,
+          isCorrect: a.isCorrect,
+          timeSpent: a.timeSpent,
+        })),
+        score,
+        expGained,
+      };
+
+      const result = await api.post<{ message: string; stars: number; newExp: number }>(
+        "/quiz/submit",
+        payload
+      );
+
+      setSubmitStatus("success");
+
+      // 更新本地用户数据（经验值等）
+      if (user && result) {
+        const newExp = result.newExp || user.exp + expGained;
+        const newLevel = Math.floor(newExp / 100) + 1;
+        const newExpToNext = 100 - (newExp % 100);
+        const correctCount = answers.filter((a) => a.isCorrect).length;
+        setUser({
+          ...user,
+          exp: newExp,
+          level: newLevel,
+          expToNextLevel: newExpToNext,
+          totalWords: user.totalWords + correctCount,
+        });
+      }
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "提交失败";
+      setSubmitStatus("error", message);
+    }
+  }, [currentGrade, currentSemester, currentUnit, answers, score, expGained, user, setUser, setSubmitStatus]);
+
   const handleSubmit = useCallback(() => {
     if (showResult) {
       // 下一题
@@ -143,25 +230,31 @@ export default function QuizPage() {
         correct = result.isCorrect;
         userAnswer = inputAnswer;
       } else {
-        const correct = selectedAnswer === sentenceQuiz.correctAnswer;
+        correct = selectedAnswer === sentenceQuiz.correctAnswer;
         userAnswer = selectedAnswer;
       }
     } else if (currentType === "spell") {
       const word = currentQ as WordEntry;
       correct = inputAnswer.trim().toLowerCase() === word.en.toLowerCase();
       userAnswer = inputAnswer;
+    } else if (currentType === "listen" || currentType === "match") {
+      // 听力辨词 / 单词配对：选项模式，判断选中的释义是否正确
+      const word = currentQ as WordEntry;
+      const correctCn = (word.cn[0] || "").split(/[,，、]/)[0].trim();
+      correct = selectedAnswer === correctCn;
+      userAnswer = selectedAnswer;
     } else if (currentType === "en2cn" || currentType === "cn2en") {
       const word = currentQ as WordEntry;
       const correctCn = (word.cn[0] || "").split(/[,，、]/)[0].trim();
       correct = selectedAnswer === correctCn;
       userAnswer = selectedAnswer;
     } else {
-      // 其他题型默认正确（模拟）
-      correct = Math.random() > 0.3;
-      userAnswer = selectedAnswer || "模拟答案";
+      // fallback: 默认判错（不应到达这里）
+      correct = false;
+      userAnswer = selectedAnswer || "";
     }
 
-    recordAnswer(correct, userAnswer);
+    recordAnswer(correct, userAnswer, getWordId(currentQ));
     setIsCorrect(correct);
     setShowResult(true);
 
@@ -180,7 +273,7 @@ export default function QuizPage() {
     } else {
       setTimeout(() => {
         finishQuiz();
-        navigate("/result");
+        submitQuiz().then(() => navigate("/result"));
       }, 1500);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -454,6 +547,101 @@ export default function QuizPage() {
             </div>
           )}
 
+          {/* 听力辨词题型 */}
+          {currentType === "listen" && word && (
+            <div>
+              <div className="text-center mb-4">
+                <span className="inline-block bg-cyan-50 text-cyan-600 text-xs font-semibold px-3 py-1 rounded-full">
+                  听力辨词
+                </span>
+              </div>
+              <div className="text-center mb-6">
+                <p className="text-[#636E72] mb-2">请听发音，选择对应释义：</p>
+                <button
+                  onClick={() => speak(word.en)}
+                  className="w-16 h-16 rounded-full bg-[#6C5CE7]/10 text-[#6C5CE7] mx-auto flex items-center justify-center hover:bg-[#6C5CE7]/20 transition-colors"
+                >
+                  <Volume2 size={28} />
+                </button>
+                <p className="mt-2 text-sm text-gray-400">点击按钮播放发音</p>
+              </div>
+              <div className="space-y-2">
+                {generateChoices((word.cn[0] || "").split(/[,，、]/)[0].trim(), wordPool.map((w) => (w.cn[0] || "").split(/[,，、]/)[0].trim())).map((choice, i) => {
+                  const isSelected = selectedAnswer === choice;
+                  const isCorrectChoice = choice === (word.cn[0] || "").split(/[,，、]/)[0].trim();
+                  let btnClass = "w-full p-3 rounded-xl border-2 text-left transition-all ";
+                  if (showResult) {
+                    if (isCorrectChoice) btnClass += "border-green-400 bg-green-50 text-green-700";
+                    else if (isSelected) btnClass += "border-red-400 bg-red-50 text-red-700";
+                    else btnClass += "border-gray-200 bg-gray-50 text-gray-400";
+                  } else {
+                    btnClass += isSelected
+                      ? "border-[#6C5CE7] bg-[#6C5CE7]/5"
+                      : "border-gray-200 hover:border-[#6C5CE7]/50";
+                  }
+                  return (
+                    <button
+                      key={i}
+                      onClick={() => !showResult && setSelectedAnswer(choice)}
+                      disabled={showResult}
+                      className={btnClass}
+                    >
+                      {String.fromCharCode(65 + i)}. {choice}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* 单词配对题型 */}
+          {currentType === "match" && word && (
+            <div>
+              <div className="text-center mb-4">
+                <span className="inline-block bg-teal-50 text-teal-600 text-xs font-semibold px-3 py-1 rounded-full">
+                  单词配对
+                </span>
+              </div>
+              <div className="text-center mb-6">
+                <h2 className="text-3xl font-bold text-[#2D3436] mb-1">{word.en}</h2>
+                <p className="text-sm text-[#636E72]">{word.pos}</p>
+                <button
+                  onClick={() => speak(word.en)}
+                  className="mt-2 text-[#6C5CE7] hover:text-[#5B4FCF] transition-colors"
+                >
+                  <Volume2 size={20} className="inline mr-1" />
+                  发音
+                </button>
+              </div>
+              <div className="space-y-2">
+                {generateChoices((word.cn[0] || "").split(/[,，、]/)[0].trim(), wordPool.map((w) => (w.cn[0] || "").split(/[,，、]/)[0].trim())).map((choice, i) => {
+                  const isSelected = selectedAnswer === choice;
+                  const isCorrectChoice = choice === (word.cn[0] || "").split(/[,，、]/)[0].trim();
+                  let btnClass = "w-full p-3 rounded-xl border-2 text-left transition-all ";
+                  if (showResult) {
+                    if (isCorrectChoice) btnClass += "border-green-400 bg-green-50 text-green-700";
+                    else if (isSelected) btnClass += "border-red-400 bg-red-50 text-red-700";
+                    else btnClass += "border-gray-200 bg-gray-50 text-gray-400";
+                  } else {
+                    btnClass += isSelected
+                      ? "border-[#6C5CE7] bg-[#6C5CE7]/5"
+                      : "border-gray-200 hover:border-[#6C5CE7]/50";
+                  }
+                  return (
+                    <button
+                      key={i}
+                      onClick={() => !showResult && setSelectedAnswer(choice)}
+                      disabled={showResult}
+                      className={btnClass}
+                    >
+                      {String.fromCharCode(65 + i)}. {choice}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
           {/* 闪卡模式 */}
           {currentType === "flashcard" && word && (
             <div className="text-center">
@@ -470,11 +658,12 @@ export default function QuizPage() {
                     setSelectedAnswer("known");
                     setIsCorrect(true);
                     setShowResult(true);
+                    recordAnswer(true, "认识", getWordId(currentQ));
                     setTimeout(() => {
                       if (currentIndex < total - 1) setCurrentIndex(currentIndex + 1);
                       else {
                         finishQuiz();
-                        navigate("/result");
+                        submitQuiz().then(() => navigate("/result"));
                       }
                     }, 800);
                   }
@@ -494,11 +683,11 @@ export default function QuizPage() {
               <div className="flex gap-3">
                 <button
                   onClick={() => {
-                    recordAnswer(false, "");
+                    recordAnswer(false, "", getWordId(currentQ));
                     if (currentIndex < total - 1) setCurrentIndex(currentIndex + 1);
                     else {
                       finishQuiz();
-                      navigate("/result");
+                      submitQuiz().then(() => navigate("/result"));
                     }
                   }}
                   className="flex-1 py-3 border-2 border-red-200 text-red-500 rounded-xl font-semibold hover:bg-red-50 transition-colors"
@@ -507,11 +696,11 @@ export default function QuizPage() {
                 </button>
                 <button
                   onClick={() => {
-                    recordAnswer(true, "");
+                    recordAnswer(true, "", getWordId(currentQ));
                     if (currentIndex < total - 1) setCurrentIndex(currentIndex + 1);
                     else {
                       finishQuiz();
-                      navigate("/result");
+                      submitQuiz().then(() => navigate("/result"));
                     }
                   }}
                   className="flex-1 py-3 bg-[#00B894] text-white rounded-xl font-semibold hover:bg-[#00B894]/80 transition-colors"
@@ -530,11 +719,11 @@ export default function QuizPage() {
           <button
             onClick={() => {
               // 跳过
-              recordAnswer(false, "跳过");
+              recordAnswer(false, "跳过", getWordId(currentQ));
               if (currentIndex < total - 1) setCurrentIndex(currentIndex + 1);
               else {
                 finishQuiz();
-                navigate("/result");
+                submitQuiz().then(() => navigate("/result"));
               }
             }}
             className="px-5 py-3 border-2 border-gray-200 text-gray-400 rounded-xl font-semibold hover:bg-gray-50 transition-colors"

@@ -1,7 +1,10 @@
 import { Router, Request, Response } from "express";
 import { authMiddleware } from "../middleware/auth.middleware";
+import { PrismaClient } from "@prisma/client";
 import * as fs from "fs";
 import * as path from "path";
+
+const prisma = new PrismaClient();
 
 const router = Router();
 
@@ -76,10 +79,43 @@ router.get("/progress/:grade", authMiddleware, async (req: Request, res: Respons
     const userId = (req as any).userId;
     const grade = parseInt(req.params.grade);
 
-    // TODO: 从数据库获取进度
+    if (isNaN(grade)) {
+      res.status(400).json({ message: "年级必须是数字" });
+      return;
+    }
+
+    // 从数据库查询该年级下所有学期、所有单元的进度
+    const records = await prisma.unitProgress.findMany({
+      where: { userId, grade },
+      select: {
+        grade: true,
+        semester: true,
+        unit: true,
+        stars: true,
+        bestScore: true,
+        completed: true,
+        lastReviewAt: true,
+      },
+    });
+
+    // 构建进度映射：key = "grade-semester-unit"
+    const progressMap: Record<string, any> = {};
+    for (const r of records) {
+      const key = `${r.grade}-${r.semester}-${r.unit}`;
+      progressMap[key] = {
+        grade: r.grade,
+        semester: r.semester,
+        unit: r.unit,
+        stars: r.stars,
+        bestScore: r.bestScore,
+        completed: r.completed,
+        lastReviewAt: r.lastReviewAt ? new Date(r.lastReviewAt).getTime() : 0,
+      };
+    }
+
     res.json({
       grade,
-      progress: [],
+      progress: progressMap,
     });
   } catch (error) {
     console.error("获取进度错误:", error);

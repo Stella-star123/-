@@ -1,63 +1,105 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { motion } from "framer-motion";
-import { Clock, CheckCircle, RotateCcw, BookOpen, Zap } from "lucide-react";
+import { Clock, CheckCircle, RotateCcw, BookOpen, Zap, Loader2, AlertCircle, RefreshCw } from "lucide-react";
 import type { WordEntry } from "../types/word";
 import { useUserStore } from "../store/useUserStore";
 import { calculateMastery } from "../utils/reviewAlgorithm";
+import { api } from "../utils/api";
 
-// 模拟待复习数据（实际应从后端API获取）
-const MOCK_REVIEW_WORDS: (WordEntry & { lastReview: number; repetitions: number; interval: number })[] = [
-  {
-    id: "1", en: "German", phonetic: "/ˈdʒɜːmən/", pos: "adj.", cn: ["德国的"],
-    example: "I like German food.", exampleCn: "我喜欢德国食物。", grade: 7, unit: 1,
-    lastReview: Date.now() - 2 * 24 * 60 * 60 * 1000, repetitions: 2, interval: 3,
-  },
-  {
-    id: "2", en: "sound", phonetic: "/saʊnd/", pos: "n.", cn: ["声音"],
-    example: "The sound is nice.", exampleCn: "这声音很好听。", grade: 7, unit: 1,
-    lastReview: Date.now() - 5 * 24 * 60 * 60 * 1000, repetitions: 1, interval: 1,
-  },
-  {
-    id: "5", en: "dream", phonetic: "/driːm/", pos: "n.", cn: ["梦想"],
-    example: "I have a dream.", exampleCn: "我有一个梦想。", grade: 7, unit: 1,
-    lastReview: Date.now() - 1 * 24 * 60 * 60 * 1000, repetitions: 3, interval: 7,
-  },
-];
+/** 后端返回的复习记录（含完整单词信息） */
+interface ReviewItem {
+  id: string;
+  wordId: string;
+  wordEn: string;
+  repetitions: number;
+  efactor: number;
+  interval: number;
+  nextReviewAt: string;
+  lastQuality: number;
+  createdAt: string;
+  updatedAt: string;
+  word: WordEntry | null;
+}
 
 type ReviewTab = "due" | "mastered" | "learning";
 
 export default function ReviewPage() {
   const { user } = useUserStore();
   const [activeTab, setActiveTab] = useState<ReviewTab>("due");
-  const [reviewWords, setReviewWords] = useState(MOCK_REVIEW_WORDS);
   const [mode, setMode] = useState<"none" | "quick" | "full" | "test">("none");
+  const [reviews, setReviews] = useState<ReviewItem[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
-  const dueWords = reviewWords.filter(
-    (w) => Date.now() - w.lastReview >= w.interval * 24 * 60 * 60 * 1000
+  // 加载待复习列表
+  const fetchDueReviews = useCallback(async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const data = await api.get<{ total: number; reviews: ReviewItem[] }>("/review/due");
+      setReviews(data.reviews || []);
+    } catch (err: any) {
+      setError(err.message || "加载失败");
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    fetchDueReviews();
+  }, [fetchDueReviews]);
+
+  // 提交复习结果到后端
+  const handleReviewComplete = useCallback(
+    async (wordId: string, quality: number) => {
+      // 乐观更新本地状态
+      setReviews((prev) =>
+        prev.map((r) => {
+          if (r.wordId !== wordId) return r;
+          const newRep = quality >= 3 ? r.repetitions + 1 : 0;
+          const newInterval =
+            quality >= 3
+              ? Math.round(r.interval * (quality >= 4 ? 2 : 1.5))
+              : 1;
+          return {
+            ...r,
+            repetitions: newRep,
+            interval: newInterval,
+            nextReviewAt: new Date(
+              Date.now() + newInterval * 24 * 60 * 60 * 1000
+            ).toISOString(),
+            lastQuality: quality,
+          };
+        })
+      );
+
+      // 异步提交到后端
+      try {
+        await api.post("/review/submit", { wordId, quality });
+      } catch (err: any) {
+        console.error("提交复习结果失败:", err);
+        // 提交失败时刷新列表以保持数据一致
+        fetchDueReviews();
+      }
+    },
+    [fetchDueReviews]
   );
-  const masteredWords = reviewWords.filter((w) => calculateMastery(w.repetitions, w.interval) >= 80);
-  const learningWords = reviewWords.filter((w) => calculateMastery(w.repetitions, w.interval) < 80);
+
+  // 基于后端返回数据计算各分类
+  const dueWords = reviews.filter(
+    (r) => new Date(r.nextReviewAt).getTime() <= Date.now()
+  );
+  const masteredWords = reviews.filter(
+    (r) => calculateMastery(r.repetitions, r.interval) >= 80
+  );
+  const learningWords = reviews.filter(
+    (r) => calculateMastery(r.repetitions, r.interval) < 80
+  );
 
   const getList = () => {
     if (activeTab === "due") return dueWords;
     if (activeTab === "mastered") return masteredWords;
     return learningWords;
-  };
-
-  const handleReviewComplete = (wordId: string, quality: number) => {
-    setReviewWords((prev) =>
-      prev.map((w) => {
-        if (w.id !== wordId) return w;
-        const newRep = quality >= 3 ? w.repetitions + 1 : 0;
-        const newInterval = quality >= 3 ? Math.round(w.interval * (quality >= 4 ? 2 : 1.5)) : 1;
-        return {
-          ...w,
-          lastReview: Date.now(),
-          repetitions: newRep,
-          interval: newInterval,
-        };
-      })
-    );
   };
 
   const renderMasteryRing = (repetitions: number, interval: number) => {
@@ -86,8 +128,39 @@ export default function ReviewPage() {
     );
   };
 
+  // 加载状态
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-[#F8F9FE] flex items-center justify-center">
+        <div className="text-center">
+          <Loader2 size={40} className="animate-spin text-[#6C5CE7] mx-auto mb-4" />
+          <p className="text-[#636E72]">加载复习数据中...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // 错误状态
+  if (error) {
+    return (
+      <div className="min-h-screen bg-[#F8F9FE] flex items-center justify-center p-4">
+        <div className="text-center max-w-md">
+          <AlertCircle size={48} className="text-[#FF7675] mx-auto mb-4" />
+          <p className="text-[#636E72] mb-4">{error}</p>
+          <button
+            onClick={fetchDueReviews}
+            className="inline-flex items-center gap-2 px-4 py-2 bg-[#6C5CE7] text-white rounded-xl hover:bg-[#5A4BD1] transition-colors"
+          >
+            <RefreshCw size={16} />
+            重新加载
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // 复习模式界面
   if (mode !== "none") {
-    // 复习模式界面（简化版）
     const list = getList();
     return (
       <div className="min-h-screen bg-[#F8F9FE] p-4 max-w-md mx-auto">
@@ -100,12 +173,15 @@ export default function ReviewPage() {
           </h2>
         </div>
         {list.length === 0 ? (
-          <div className="text-center text-[#636E72] mt-20">暂无需要复习的单词 🎉</div>
+          <div className="text-center text-[#636E72] mt-20">
+            <BookOpen size={48} className="mx-auto mb-4 text-[#B2BEC3]" />
+            <p className="text-lg">暂无需要复习的单词</p>
+          </div>
         ) : (
           <div className="space-y-3">
-            {list.map((w, idx) => (
+            {list.map((r, idx) => (
               <motion.div
-                key={w.id}
+                key={r.id}
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: idx * 0.05 }}
@@ -113,19 +189,34 @@ export default function ReviewPage() {
               >
                 <div className="flex items-center justify-between">
                   <div className="flex-1">
-                    <h3 className="font-bold text-[#2D3436]">{w.en}</h3>
-                    <p className="text-sm text-[#6C5CE7] mt-1">{w.cn.join("、")}</p>
+                    <h3 className="font-bold text-[#2D3436]">
+                      {r.word?.en || r.wordEn}
+                    </h3>
+                    <p className="text-sm text-[#6C5CE7] mt-1">
+                      {r.word?.cn?.join("、") || ""}
+                    </p>
+                    {r.word?.phonetic && (
+                      <p className="text-xs text-[#B2BEC3] mt-0.5">{r.word.phonetic}</p>
+                    )}
+                    {r.word?.pos && (
+                      <p className="text-xs text-[#636E72] mt-0.5">{r.word.pos}</p>
+                    )}
+                    {r.word?.example && (
+                      <p className="text-xs text-[#636E72] mt-1 italic">
+                        "{r.word.example}" — {r.word.exampleCn}
+                      </p>
+                    )}
                   </div>
                   <div className="flex gap-2">
                     <button
-                      onClick={() => handleReviewComplete(w.id, 5)}
-                      className="px-3 py-1 bg-[#00B894] text-white text-xs rounded-lg"
+                      onClick={() => handleReviewComplete(r.wordId, 5)}
+                      className="px-3 py-1 bg-[#00B894] text-white text-xs rounded-lg hover:bg-[#00A884] transition-colors"
                     >
                       认识
                     </button>
                     <button
-                      onClick={() => handleReviewComplete(w.id, 2)}
-                      className="px-3 py-1 bg-[#FF7675] text-white text-xs rounded-lg"
+                      onClick={() => handleReviewComplete(r.wordId, 2)}
+                      className="px-3 py-1 bg-[#FF7675] text-white text-xs rounded-lg hover:bg-[#E06060] transition-colors"
                     >
                       不认识
                     </button>
@@ -139,9 +230,19 @@ export default function ReviewPage() {
     );
   }
 
+  // 主页面
   return (
     <div className="min-h-screen bg-[#F8F9FE] p-4 max-w-md mx-auto">
-      <h1 className="text-2xl font-bold text-[#2D3436] mb-6">复习中心</h1>
+      <div className="flex items-center justify-between mb-6">
+        <h1 className="text-2xl font-bold text-[#2D3436]">复习中心</h1>
+        <button
+          onClick={fetchDueReviews}
+          className="p-2 text-[#636E72] hover:text-[#6C5CE7] transition-colors rounded-lg hover:bg-white"
+          title="刷新"
+        >
+          <RefreshCw size={18} />
+        </button>
+      </div>
 
       {/* Tabs */}
       <div className="flex gap-1 bg-gray-100 rounded-2xl p-1 mb-6">
@@ -173,32 +274,42 @@ export default function ReviewPage() {
 
       {/* 复习列表 */}
       <div className="space-y-3 mb-6">
-        {getList().map((w, idx) => (
+        {getList().map((r, idx) => (
           <motion.div
-            key={w.id}
+            key={r.id}
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: idx * 0.05 }}
             className="flex items-center gap-3 bg-white rounded-2xl p-4 shadow-sm"
           >
-            {renderMasteryRing(w.repetitions, w.interval)}
+            {renderMasteryRing(r.repetitions, r.interval)}
             <div className="flex-1">
-              <h3 className="font-bold text-[#2D3436]">{w.en}</h3>
+              <h3 className="font-bold text-[#2D3436]">
+                {r.word?.en || r.wordEn}
+              </h3>
+              <p className="text-sm text-[#6C5CE7]">
+                {r.word?.cn?.join("、") || ""}
+              </p>
               <p className="text-xs text-[#636E72]">
-                上次复习：{Math.round((Date.now() - w.lastReview) / (24 * 60 * 60 * 1000))}天前
+                上次复习：{Math.round((Date.now() - new Date(r.nextReviewAt).getTime() + r.interval * 24 * 60 * 60 * 1000) / (24 * 60 * 60 * 1000))}天前
               </p>
             </div>
             <button
-              onClick={() => {
-                handleReviewComplete(w.id, 5);
-              }}
+              onClick={() => handleReviewComplete(r.wordId, 5)}
               className="text-[#00B894] hover:bg-[#00B894]/10 p-2 rounded-lg transition-colors"
             >
               <CheckCircle size={20} />
             </button>
           </motion.div>
         ))}
-        {getList().length === 0 && (
+        {getList().length === 0 && reviews.length === 0 && (
+          <div className="text-center text-[#636E72] py-10">
+            <BookOpen size={48} className="mx-auto mb-4 text-[#B2BEC3]" />
+            <p className="text-lg mb-2">暂无需要复习的单词</p>
+            <p className="text-sm">完成测验后，系统会自动记录需要复习的单词</p>
+          </div>
+        )}
+        {getList().length === 0 && reviews.length > 0 && (
           <div className="text-center text-[#636E72] py-10">
             {activeTab === "due" ? "🎉 今日复习全部完成！" : "暂无单词"}
           </div>

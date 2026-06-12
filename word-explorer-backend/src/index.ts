@@ -5,6 +5,7 @@ import authRoutes from "./routes/auth.routes";
 import wordRoutes from "./routes/word.routes";
 import quizRoutes from "./routes/quiz.routes";
 import reviewRoutes from "./routes/review.routes";
+import userRoutes from "./routes/user.routes";
 
 dotenv.config();
 
@@ -20,6 +21,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/words", wordRoutes);
 app.use("/api/quiz", quizRoutes);
 app.use("/api/review", reviewRoutes);
+app.use("/api/user", userRoutes);
 
 // 健康检查
 app.get("/api/health", (_req: Request, res: Response) => {

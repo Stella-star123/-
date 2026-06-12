@@ -1,7 +1,7 @@
 /** 学期枚举 */
 export type Semester = 1 | 2;  // 1=上册, 2=下册
 
-/** 单词条目 - 沪教版七至九年级 */
+/** 单词条目 - 沪教版七至八年级 */
 export interface WordEntry {
   id: string;
   en: string;          // 英文
@@ -10,7 +10,7 @@ export interface WordEntry {
   cn: string[];        // 中文释义（支持多个义项）
   example: string;     // 英文例句
   exampleCn: string;   // 例句中文翻译
-  grade: number;       // 所属年级 7/8/9
+  grade: number;       // 所属年级 7/8
   semester: Semester;  // 学期 1=上册 2=下册
   unit: number;        // 所属单元编号
 }

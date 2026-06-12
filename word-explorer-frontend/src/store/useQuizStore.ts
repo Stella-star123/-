@@ -1,31 +1,55 @@
 import { create } from "zustand";
 import type { QuizType, SentenceQuiz, WordEntry } from "../types/word";
 
+interface QuizAnswer {
+  questionIndex: number;
+  wordId: string;
+  isCorrect: boolean;
+  userAnswer: string;
+  timeSpent: number;
+}
+
 interface QuizState {
   currentGrade: number;
+  currentSemester: number;
   currentUnit: number;
   questions: (WordEntry | SentenceQuiz)[];
   currentIndex: number;
   quizType: QuizType;
   streak: number;
   isFlameMode: boolean;
-  answers: { questionIndex: number; isCorrect: boolean; userAnswer: string }[];
+  answers: QuizAnswer[];
   isFinished: boolean;
   score: number;
   expGained: number;
+  /** 每道题开始答题的时间戳 */
+  questionStartTime: number;
+  /** 后端提交状态 */
+  submitStatus: "idle" | "submitting" | "success" | "error";
+  submitError: string | null;
 
-  setGradeUnit: (grade: number, unit: number) => void;
+  setGradeSemesterUnit: (grade: number, semester: number, unit: number) => void;
   setQuestions: (questions: (WordEntry | SentenceQuiz)[]) => void;
   setCurrentIndex: (index: number) => void;
   setQuizType: (type: QuizType) => void;
-  recordAnswer: (isCorrect: boolean, userAnswer: string) => void;
+  recordAnswer: (isCorrect: boolean, userAnswer: string, wordId: string) => void;
   nextQuestion: () => void;
   finishQuiz: () => void;
+  setSubmitStatus: (status: "idle" | "submitting" | "success" | "error", error?: string) => void;
   resetQuiz: () => void;
+}
+
+/** 从题目中提取 wordId */
+function extractWordId(q: WordEntry | SentenceQuiz): string {
+  if ("sentence" in q) {
+    return (q as SentenceQuiz).wordEntry?.id || "";
+  }
+  return (q as WordEntry).id || "";
 }
 
 export const useQuizStore = create<QuizState>((set, get) => ({
   currentGrade: 7,
+  currentSemester: 1,
   currentUnit: 1,
   questions: [],
   currentIndex: 0,
@@ -36,28 +60,40 @@ export const useQuizStore = create<QuizState>((set, get) => ({
   isFinished: false,
   score: 0,
   expGained: 0,
+  questionStartTime: 0,
+  submitStatus: "idle",
+  submitError: null,
 
-  setGradeUnit: (grade, unit) =>
-    set({ currentGrade: grade, currentUnit: unit }),
+  setGradeSemesterUnit: (grade, semester, unit) =>
+    set({ currentGrade: grade, currentSemester: semester, currentUnit: unit }),
 
   setQuestions: (questions) =>
-    set({ questions, currentIndex: 0, answers: [], isFinished: false }),
+    set({ questions, currentIndex: 0, answers: [], isFinished: false, questionStartTime: Date.now() }),
 
-  setCurrentIndex: (index) => set({ currentIndex: index }),
+  setCurrentIndex: (index) => {
+    set({ currentIndex: index, questionStartTime: Date.now() });
+  },
 
   setQuizType: (type) => set({ quizType: type }),
 
-  recordAnswer: (isCorrect, userAnswer) => {
+  recordAnswer: (isCorrect, userAnswer, wordId) => {
     const state = get();
     const newStreak = isCorrect ? state.streak + 1 : 0;
-    const exp = isCorrect ? (isCorrect ? 10 : 0) + (newStreak >= 5 ? 5 : 0) : 0;
+    const exp = isCorrect ? 10 + (newStreak >= 5 ? 5 : 0) : 0;
+    const timeSpent = Date.now() - state.questionStartTime;
 
     set((prev) => ({
       streak: newStreak,
       isFlameMode: newStreak >= 5,
       answers: [
         ...prev.answers,
-        { questionIndex: prev.currentIndex, isCorrect, userAnswer },
+        {
+          questionIndex: prev.currentIndex,
+          wordId,
+          isCorrect,
+          userAnswer,
+          timeSpent,
+        },
       ],
       score: prev.score + (isCorrect ? 10 : 0),
       expGained: prev.expGained + exp,
@@ -67,13 +103,16 @@ export const useQuizStore = create<QuizState>((set, get) => ({
   nextQuestion: () => {
     const state = get();
     if (state.currentIndex < state.questions.length - 1) {
-      set((prev) => ({ currentIndex: prev.currentIndex + 1 }));
+      set({ currentIndex: state.currentIndex + 1, questionStartTime: Date.now() });
     } else {
       set({ isFinished: true });
     }
   },
 
   finishQuiz: () => set({ isFinished: true }),
+
+  setSubmitStatus: (status, error) =>
+    set({ submitStatus: status, submitError: error || null }),
 
   resetQuiz: () =>
     set({
@@ -85,5 +124,8 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       isFinished: false,
       score: 0,
       expGained: 0,
+      questionStartTime: 0,
+      submitStatus: "idle",
+      submitError: null,
     }),
 }));

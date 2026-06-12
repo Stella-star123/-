@@ -1,6 +1,7 @@
 import { Router, Request, Response } from "express";
 import { authMiddleware } from "../middleware/auth.middleware";
 import { PrismaClient } from "@prisma/client";
+import { getWordEn } from "../utils/wordLoader";
 
 const router = Router();
 const prisma = new PrismaClient();
@@ -96,12 +97,11 @@ router.post("/submit", authMiddleware, async (req: Request, res: Response) => {
             },
           });
         } else {
-          // 从词库获取单词英文（实际应从数据库或词库文件读取）
           await prisma.wrongWord.create({
             data: {
               userId,
               wordId: ans.wordId,
-              wordEn: ans.wordId, // TODO: 从词库获取真实英文
+              wordEn: getWordEn(ans.wordId),
               wrongCount: 1,
             },
           });
