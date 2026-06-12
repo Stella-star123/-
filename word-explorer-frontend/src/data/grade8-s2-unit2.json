@@ -1,0 +1,380 @@
+[
+  {
+    "id": "g8s2-u2-1",
+    "en": "shake",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "摇动",
+      "抖动"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-2",
+    "en": "clap",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "鼓掌",
+      "拍手"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-3",
+    "en": "madam",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "夫人",
+      "女士"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-4",
+    "en": "boss",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "老板"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-5",
+    "en": "expression",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "表情",
+      "神色"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-6",
+    "en": "impression",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "印象"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-7",
+    "en": "hold",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "使保持(在某位置)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-8",
+    "en": "observe",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "注意到",
+      "观察到"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-9",
+    "en": "remind",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "提醒",
+      "使想起"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-10",
+    "en": "ballet",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "芭蕾舞"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-11",
+    "en": "emphasize",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "强调"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-12",
+    "en": "nod",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "点头"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-13",
+    "en": "meaning",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "意义",
+      "意思"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-14",
+    "en": "immediately",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "立",
+      "马上",
+      "立刻"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-15",
+    "en": "shy",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "羞的",
+      "腼腆的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-16",
+    "en": "case",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "具体情况",
+      "事例"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-17",
+    "en": "direct",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "直接的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-18",
+    "en": "truly",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "真地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-19",
+    "en": "suppose",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "假定",
+      "假设"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-20",
+    "en": "behaviour",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "行为",
+      "举止"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-21",
+    "en": "uncomfortable",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "不自在的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-22",
+    "en": "hold something up",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "拾起"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-23",
+    "en": "Sit up",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "坐起来",
+      "坐直"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-24",
+    "en": "make a good impression on",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "给.....留下好印象"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-25",
+    "en": "eye contact",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "目光接触"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  },
+  {
+    "id": "g8s2-u2-26",
+    "en": "pay attention",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "注意"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 2
+  }
+]

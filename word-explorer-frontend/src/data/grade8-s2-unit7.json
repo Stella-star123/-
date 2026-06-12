@@ -1,0 +1,406 @@
+[
+  {
+    "id": "g8s2-u7-1",
+    "en": "beef",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "牛肉"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-2",
+    "en": "seafood",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "海鲜"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-3",
+    "en": "afford",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "承担得起(后果)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-4",
+    "en": "mistake",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "错误",
+      "失"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-5",
+    "en": "stick",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "粘",
+      "贴"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-6",
+    "en": "hit",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "碰撞",
+      "撞击"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-7",
+    "en": "muscle",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "肌肉"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-8",
+    "en": "gym",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "健身房"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-9",
+    "en": "satellite",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "人造卫星"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-10",
+    "en": "destroy",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "毁"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-11",
+    "en": "average",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "平均的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-12",
+    "en": "probable",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "很可能发生或存在等)的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-13",
+    "en": "select",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "挑选",
+      "选拔"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-14",
+    "en": "spaceflight",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "航天",
+      "宇宙飞行"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-15",
+    "en": "serve",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "为...·..工作",
+      "服务"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-16",
+    "en": "deliver",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "传送",
+      "运载"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-17",
+    "en": "fuel",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "燃料"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-18",
+    "en": "supplies",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "[pl.]给",
+      "补给品"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-19",
+    "en": "point",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "时刻",
+      "阶段"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-20",
+    "en": "lab",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "实验室"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-21",
+    "en": "take off",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "起飞"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-22",
+    "en": "fora while",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "一段时间"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-23",
+    "en": "turn out",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "证明是",
+      "结果是"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-24",
+    "en": "cannot afford to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "承担不起(后果)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-25",
+    "en": "by mistake",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "错误地",
+      "无意中"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-26",
+    "en": "daily routine",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "日常生活",
+      "日常工作"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-27",
+    "en": "space junk",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "太空垃圾"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  },
+  {
+    "id": "g8s2-u7-28",
+    "en": "naked eye",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "肉眼"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 7
+  }
+]

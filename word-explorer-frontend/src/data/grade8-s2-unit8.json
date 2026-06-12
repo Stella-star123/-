@@ -1,0 +1,396 @@
+[
+  {
+    "id": "g8s2-u8-1",
+    "en": "mention",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "提到",
+      "说到"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-2",
+    "en": "tonight",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "在今夜",
+      "在今晚"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-3",
+    "en": "frightened",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "受惊的",
+      "害怕的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-4",
+    "en": "throat",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "咽喉",
+      "喉咙"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-5",
+    "en": "cough",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "咳嗽"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-6",
+    "en": "fear",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "害怕",
+      "惧怕"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-7",
+    "en": "creature",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "生物"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-8",
+    "en": "ugly",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "丑陋的",
+      "难看的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-9",
+    "en": "crazy",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "不理智的",
+      "疯狂的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-10",
+    "en": "refuse",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "拒绝",
+      "回绝"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-11",
+    "en": "emergency",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "紧急情况"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-12",
+    "en": "camera",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "照相机"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-13",
+    "en": "tent",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "帐篷",
+      "帐棚"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-14",
+    "en": "unnecessary",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "不需要的不必要的",
+      "多余的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-15",
+    "en": "whether",
+    "phonetic": "",
+    "pos": "conj.",
+    "cn": [
+      "是否"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-16",
+    "en": "backward",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "朝反方向",
+      "倒着"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-17",
+    "en": "disappoint",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "使失望"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-18",
+    "en": "argue",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "争吵",
+      "争辩"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-19",
+    "en": "keep quiet",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "保持安静"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-20",
+    "en": "because of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "因为",
+      "由于"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-21",
+    "en": "in fear",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "恐惧地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-22",
+    "en": "landing site",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "着陆位置",
+      "登陆地带"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-23",
+    "en": "agree with",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "同意",
+      "和......意见一致"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-24",
+    "en": "disagree with",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "不同意",
+      "不一致"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-25",
+    "en": "move about",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "四处走动"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-26",
+    "en": "in all directions",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "向四面八方"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  },
+  {
+    "id": "g8s2-u8-27",
+    "en": "speed up",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "加速"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 8
+  }
+]

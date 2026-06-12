@@ -1,0 +1,398 @@
+[
+  {
+    "id": "g8s2-u4-1",
+    "en": "master",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "著名画家",
+      "绘画大师"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-2",
+    "en": "masterpiece",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "代表作",
+      "杰作"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-3",
+    "en": "whenever",
+    "phonetic": "",
+    "pos": "conj.",
+    "cn": [
+      "每当",
+      "每次"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-4",
+    "en": "alone",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "独自"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-5",
+    "en": "copy",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "仿造",
+      "临摹n.复印件",
+      "复制品"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-6",
+    "en": "damage",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "损坏",
+      "毁坏"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-7",
+    "en": "separate",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "不同的",
+      "不相关的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-8",
+    "en": "exhibition",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "展览",
+      "展出"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-9",
+    "en": "detail",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "细部",
+      "局部"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-10",
+    "en": "require",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "需要"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-11",
+    "en": "daughter",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "女儿"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-12",
+    "en": "priceless",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "无价的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-13",
+    "en": "sculpture",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "雕像"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-14",
+    "en": "unfortunately",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "不幸地",
+      "遗憾地"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-15",
+    "en": "graduate",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "毕业"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-16",
+    "en": "limit",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "限量",
+      "减量"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-17",
+    "en": "temperature",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "温度"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-18",
+    "en": "preserve",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "维持......的原状",
+      "保存"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-19",
+    "en": "in one sitting",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "一口气的工夫"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-20",
+    "en": "in the mood",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "有心情"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-21",
+    "en": "pass along",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "向前行",
+      "沿......而过"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-22",
+    "en": "beat one with...",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "完全一致",
+      "是......的一部分"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-23",
+    "en": "next to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "紧邻",
+      "在......近旁"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-24",
+    "en": "at last",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "最后",
+      "终于"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-25",
+    "en": "all walks of life",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "各行各业",
+      "各界人"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-26",
+    "en": "all the time",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "一直",
+      "始终"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  },
+  {
+    "id": "g8s2-u4-27",
+    "en": "make up one's mind",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "下决心"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 4
+  }
+]

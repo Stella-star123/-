@@ -1,0 +1,515 @@
+[
+  {
+    "id": "g8s2-u5-1",
+    "en": "recognize",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "认出",
+      "辨别出"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-2",
+    "en": "mirror",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "镜子"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-3",
+    "en": "gun",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "枪",
+      "炮"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-4",
+    "en": "handsome",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "英俊的",
+      "漂亮的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-5",
+    "en": "force",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "强迫",
+      "迫使"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-6",
+    "en": "corn",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "谷物",
+      "谷粒"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-7",
+    "en": "direction",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "方向",
+      "方位"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-8",
+    "en": "progress",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "前进",
+      "行进"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-9",
+    "en": "value",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "重视",
+      "珍视"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-10",
+    "en": "official",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "官方的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-11",
+    "en": "throw",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "抛",
+      "扔"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-12",
+    "en": "Law",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "法律",
+      "法规"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-13",
+    "en": "punish",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "处罚",
+      "惩罚"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-14",
+    "en": "blog",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "博客"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-15",
+    "en": "publish",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "发表",
+      "公布"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-16",
+    "en": "shoulder",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "肩膀",
+      "肩胛"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-17",
+    "en": "rare",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "稀罕的",
+      "珍贵的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-18",
+    "en": "slim",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "苗条的",
+      "纤细的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-19",
+    "en": "alarmed",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "担忧的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-20",
+    "en": "typical",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "典型的",
+      "有代表性的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-21",
+    "en": "thirsty",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "渴的",
+      "口渴的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-22",
+    "en": "sore",
+    "phonetic": "/sɔ:(r)/",
+    "pos": "adj.",
+    "cn": [
+      "疼痛的",
+      "酸痛的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-23",
+    "en": "red-crowned crane",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "丹顶鹤"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-24",
+    "en": "polar bear",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "北极熊"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-25",
+    "en": "more than enough",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "绰绰有余"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-26",
+    "en": "shoot dead",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "枪杀",
+      "击毙"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-27",
+    "en": "make use of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "使用",
+      "利用"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-28",
+    "en": "without a care in the world",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "无忧无虑"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-29",
+    "en": "ought to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "应该",
+      "应当"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-30",
+    "en": "up to",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "到达(某数量、程度等):至多有"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-31",
+    "en": "nature reserve",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "自然保护区"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-32",
+    "en": "day and night",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "夜以继日"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-33",
+    "en": "go missing",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "失踪",
+      "不见"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-34",
+    "en": "look for",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "寻找"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  },
+  {
+    "id": "g8s2-u5-35",
+    "en": "lose one's life",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "牺牲生命",
+      "丧命"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 8,
+    "semester": 2,
+    "unit": 5
+  }
+]
