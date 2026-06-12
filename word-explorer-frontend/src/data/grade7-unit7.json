@@ -1,0 +1,543 @@
+[
+  {
+    "id": "g7u7-01",
+    "en": "literature",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "文学",
+      "文学作品"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-02",
+    "en": "act",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "扮演(戏剧、电影中的角色)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-03",
+    "en": "appreciate",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "欣赏",
+      "赏识"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-04",
+    "en": "join",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "成为……的一员",
+      "参加"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-05",
+    "en": "definitely",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "肯定",
+      "没问题",
+      "当然",
+      "确实"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-06",
+    "en": "fair",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "集市"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-07",
+    "en": "rocket",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "火箭"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-08",
+    "en": "launch",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "发射"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-09",
+    "en": "shout",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "大声说",
+      "叫"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-10",
+    "en": "power",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "力量",
+      "能量"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-11",
+    "en": "moment",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "片刻",
+      "瞬间"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-12",
+    "en": "member",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "成员"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-13",
+    "en": "shape",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "形状",
+      "外形"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-14",
+    "en": "hike",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "去…远足",
+      "做徒步旅行"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-15",
+    "en": "recently",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "不久前",
+      "最近"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-16",
+    "en": "attend",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "出席",
+      "参加"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-17",
+    "en": "charity",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "慈善机构(或组织)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-18",
+    "en": "sale",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "出售",
+      "销售"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-19",
+    "en": "snack",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "点心",
+      "小吃"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-20",
+    "en": "decorate",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "装饰",
+      "装潢"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-21",
+    "en": "difference",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "差别",
+      "差异"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-22",
+    "en": "compete",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "参加比赛(或竞赛)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-23",
+    "en": "event",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "公开活动",
+      "社交场合"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-24",
+    "en": "spoon",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "勺",
+      "匙"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-25",
+    "en": "annual",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "每年的",
+      "一年一次的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-26",
+    "en": "fantastic",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "极好的",
+      "了不起的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-27",
+    "en": "dollar",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "元(美国、加拿大、澳大利亚等国的货币单位)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-28",
+    "en": "pie",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "果馅饼",
+      "果馅派"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-29",
+    "en": "equipment",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "设备",
+      "器材"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-30",
+    "en": "clubs fair",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "社团招募展"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-31",
+    "en": "solar power",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "太阳能"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-32",
+    "en": "of course",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "当然"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-33",
+    "en": "remote control",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "遥控器"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-34",
+    "en": "turn around",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "转身"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-35",
+    "en": "make a difference",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "有作用；有影响"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-36",
+    "en": "primary school",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "小学"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  },
+  {
+    "id": "g7u7-37",
+    "en": "fall of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "掉落"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 7
+  }
+]

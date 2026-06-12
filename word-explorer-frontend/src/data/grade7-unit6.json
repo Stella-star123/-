@@ -1,0 +1,574 @@
+[
+  {
+    "id": "g7u6-01",
+    "en": "guide",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "指南",
+      "手册"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-02",
+    "en": "east",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "东",
+      "东方",
+      "adv.朝东"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-03",
+    "en": "west",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "西",
+      "西方",
+      "adv.朝西"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-04",
+    "en": "mix",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "混合",
+      "结合"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-05",
+    "en": "western",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "西方的",
+      "西方国家的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-06",
+    "en": "style",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "风格"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-07",
+    "en": "popular",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "大众喜爱的",
+      "广受欢迎的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-08",
+    "en": "site",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(建筑物、城镇等的)地点"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-09",
+    "en": "across",
+    "phonetic": "",
+    "pos": "prep.",
+    "cn": [
+      "在…对面",
+      "在……对过"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-10",
+    "en": "adult",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "成年人"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-11",
+    "en": "senior",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "老年人",
+      "长者"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-12",
+    "en": "customer",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "顾客",
+      "主顾",
+      "客户"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-13",
+    "en": "design",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "设计"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-14",
+    "en": "else",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "其他的",
+      "别的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-15",
+    "en": "suggestion",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "建议",
+      "提议"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-16",
+    "en": "tip",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "指点",
+      "实用的提示"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-17",
+    "en": "historic",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "历史上齐名(或重要)的",
+      "可名乘背史的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-18",
+    "en": "list",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "名单",
+      "目录"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-19",
+    "en": "landscape",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "风景",
+      "景色"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-20",
+    "en": "memory",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "回忆",
+      "记忆"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-21",
+    "en": "general",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "将军"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-22",
+    "en": "sight",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "看见"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-23",
+    "en": "natural",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "自然的",
+      "天然的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-24",
+    "en": "almost",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "几乎",
+      "差不多"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-25",
+    "en": "become",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "开始变得",
+      "变成"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-26",
+    "en": "gateway",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(通往其他地区的)门户"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-27",
+    "en": "influence",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "影响",
+      "对…起作用"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-28",
+    "en": "artwork",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "艺术作品"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-29",
+    "en": "painting",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "绘画"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-30",
+    "en": "scene",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "场面",
+      "情景"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-31",
+    "en": "wife",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "妻子"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-32",
+    "en": "stone",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "石头",
+      "石料"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-33",
+    "en": "reflection",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "映像",
+      "映照出的影像"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-34",
+    "en": "tourist spot",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "旅游景点"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-35",
+    "en": "light up",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "点亮；照亮"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-36",
+    "en": "in the centre of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "在……的中心"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-37",
+    "en": "be interested in",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "对…有兴趣"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-38",
+    "en": "historic site",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "古迹；历史遗迹"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  },
+  {
+    "id": "g7u6-39",
+    "en": "in memory of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "作为对……的纪念"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 6
+  }
+]

@@ -1,0 +1,592 @@
+[
+  {
+    "id": "g7u8-01",
+    "en": "ring",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "环状物",
+      "圈形的东西"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-02",
+    "en": "collection",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(常指同类的)收集物"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-03",
+    "en": "own",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "拥有",
+      "有"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-04",
+    "en": "valuable",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "贵重的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-05",
+    "en": "handle",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "(用手)触"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-06",
+    "en": "glove",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(分手指的)手套"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-07",
+    "en": "add",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "增加",
+      "添加"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-08",
+    "en": "envelope",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "信封"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-09",
+    "en": "absolutely",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "极其"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-10",
+    "en": "seem",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "好像",
+      "似乎"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-11",
+    "en": "impossible",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "不可能的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-12",
+    "en": "single",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "单个的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-13",
+    "en": "nail",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "钉",
+      "钉子"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-14",
+    "en": "explain",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "解释",
+      "说明"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-15",
+    "en": "bit",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "一部分"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-16",
+    "en": "similar",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "相像的",
+      "类似的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-17",
+    "en": "coin",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(一枚)硬币"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-18",
+    "en": "soft",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "软的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-19",
+    "en": "sticker",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "贴纸"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-20",
+    "en": "waste",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "白费",
+      "糟蹋"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-21",
+    "en": "item",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "一件商品(或物品)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-22",
+    "en": "result",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "后果",
+      "结果"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-23",
+    "en": "wrapper",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "包装纸"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-24",
+    "en": "bar",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(长方形)条"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-25",
+    "en": "include",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "包括",
+      "包含"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-26",
+    "en": "size",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "大小"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-27",
+    "en": "pattern",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "图案",
+      "花样"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-28",
+    "en": "produce",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "生产",
+      "制造"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-29",
+    "en": "attract",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "吸引",
+      "招引"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-30",
+    "en": "insect",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "昆虫"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-31",
+    "en": "object",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "物体",
+      "物品"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-32",
+    "en": "flat",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "平滑的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-33",
+    "en": "language",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "语言"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-34",
+    "en": "treasure",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "珍宝",
+      "宝物"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-35",
+    "en": "unlock",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "发现",
+      "揭示"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-36",
+    "en": "real",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "真的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-37",
+    "en": "add…to…",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "把……添加到…"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-38",
+    "en": "soft drink",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "软饮料(不含酒精)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-39",
+    "en": "a waste of time",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "浪费时间"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-40",
+    "en": "pocket money",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "(父母给孩子的)零花钱"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  },
+  {
+    "id": "g7u8-41",
+    "en": "all over the world",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "全世界"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 8
+  }
+]

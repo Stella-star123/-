@@ -1,0 +1,608 @@
+[
+  {
+    "id": "g7u5-01",
+    "en": "spacesuit",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "航天服",
+      "宇航服"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-02",
+    "en": "collect",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "收集",
+      "采集"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-03",
+    "en": "leave",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "离开"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-04",
+    "en": "kilometre",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "千米",
+      "公里"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-05",
+    "en": "weak",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "虚弱的",
+      "无力的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-06",
+    "en": "tie",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "(用线、绳等)拴"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-07",
+    "en": "low",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "低于通常(或平均)数量(或水平、价值)的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-08",
+    "en": "weigh",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "有…重",
+      "重"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-09",
+    "en": "breathe",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "呼吸"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-10",
+    "en": "facility",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "设施",
+      "设备"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-11",
+    "en": "adventure",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "冒险",
+      "冒险经历",
+      "奇遇"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-12",
+    "en": "pass",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "沿某方向前进",
+      "向某方向移动"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-13",
+    "en": "experiment",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "实验",
+      "试验"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-14",
+    "en": "prepare",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "使做好准备",
+      "把……预备好"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-15",
+    "en": "dream",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "梦想",
+      "理想",
+      "v.做梦",
+      "梦见"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-16",
+    "en": "chance",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "机会",
+      "机遇"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-17",
+    "en": "send",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "邮寄",
+      "发送"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-18",
+    "en": "introduction",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "序言",
+      "引言"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-19",
+    "en": "view",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "景色",
+      "风景"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-20",
+    "en": "someday",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "总有一天",
+      "有朝一日"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-21",
+    "en": "experience",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "经历",
+      "阅历"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-22",
+    "en": "lander",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "着陆器"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-23",
+    "en": "island",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "岛"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-24",
+    "en": "ancient",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "古老的",
+      "很老的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-25",
+    "en": "poem",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "诗"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-26",
+    "en": "express",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "表示",
+      "表达",
+      "表露"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-27",
+    "en": "determination",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "决心",
+      "坚毅",
+      "坚定"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-28",
+    "en": "universe",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "宇宙"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-29",
+    "en": "already",
+    "phonetic": "",
+    "pos": "adv.",
+    "cn": [
+      "已经",
+      "早已"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-30",
+    "en": "century",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "世纪"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-31",
+    "en": "neighbour",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "邻居"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-32",
+    "en": "circle",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "环行"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-33",
+    "en": "surface",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "表面",
+      "表层",
+      "面"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-34",
+    "en": "release",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "放开",
+      "松开",
+      "使白由移动(或飞翔、降落等)"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-35",
+    "en": "kilogram",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "千克",
+      "公斤"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-36",
+    "en": "programme",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "计划",
+      "方案"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-37",
+    "en": "space station",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "空间站"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-38",
+    "en": "do exercise",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "锻炼；运动"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-39",
+    "en": "take photos",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "拍照"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-40",
+    "en": "get into orbit",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "进入轨道"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  },
+  {
+    "id": "g7u5-41",
+    "en": "thousands of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "数以千计；成千上万"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 5
+  }
+]

@@ -1,0 +1,701 @@
+[
+  {
+    "id": "g7u4-01",
+    "en": "system",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "系统"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-02",
+    "en": "file",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "档案"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-03",
+    "en": "amazing",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "令人大为惊奇的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-04",
+    "en": "planet",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "行星"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-05",
+    "en": "billion",
+    "phonetic": "",
+    "pos": "num.",
+    "cn": [
+      "十亿"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-06",
+    "en": "cover",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "盖",
+      "覆盖"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-07",
+    "en": "area",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "地区",
+      "地域"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-08",
+    "en": "freezing",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "极冷的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-09",
+    "en": "north",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "北",
+      "北方"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-10",
+    "en": "pole",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(行星的)极",
+      "地极"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-11",
+    "en": "desert",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "沙漠",
+      "荒漠"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-12",
+    "en": "metre",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "米"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-13",
+    "en": "reach",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "足够达到"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-14",
+    "en": "grain",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "谷粒"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-15",
+    "en": "wide",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "宽的",
+      "宽阔的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-16",
+    "en": "whale",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "鲸"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-17",
+    "en": "butterfly",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "蝴蝶"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-18",
+    "en": "provide",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "提供",
+      "供应"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-19",
+    "en": "explore",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "探索"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-20",
+    "en": "disappear",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "消失",
+      "不见"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-21",
+    "en": "plastic",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "塑料"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-22",
+    "en": "pollution",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "污染"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-23",
+    "en": "protect",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "保护"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-24",
+    "en": "chemical",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "化学制品",
+      "化学品"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-25",
+    "en": "groundwater",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "地下水"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-26",
+    "en": "burn",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "燃烧",
+      "烧"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-27",
+    "en": "oil",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "石油",
+      "原油"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-28",
+    "en": "gas",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "天然气"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-29",
+    "en": "harmful",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "有害的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-30",
+    "en": "website",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "网站"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-31",
+    "en": "own",
+    "phonetic": "",
+    "pos": "adj.",
+    "cn": [
+      "自己的",
+      "本人的"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-32",
+    "en": "emperor",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "皇帝"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-33",
+    "en": "hunt",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "打猎"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-34",
+    "en": "war",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "战争"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-35",
+    "en": "sandstorm",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "沙暴"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-36",
+    "en": "solution",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "解决办法"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-37",
+    "en": "blow",
+    "phonetic": "",
+    "pos": "v.",
+    "cn": [
+      "刮",
+      "吹"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-38",
+    "en": "generation",
+    "phonetic": "",
+    "pos": "n.",
+    "cn": [
+      "(统称)一代人"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-39",
+    "en": "solar system",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "太阳系"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-40",
+    "en": "fact file",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "事实档案"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-41",
+    "en": "be covered by",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "被……覆盖"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-42",
+    "en": "as far as we know",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "据我们所知"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-43",
+    "en": "sea level",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "海平面"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-44",
+    "en": "what's more",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "更重要的是"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-45",
+    "en": "provide… with…",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "提供；供应；给予"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-46",
+    "en": "plastic pollution",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "塑料污染"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-47",
+    "en": "cut down",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "砍倒"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-48",
+    "en": "hundreds of",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "数以百计"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  },
+  {
+    "id": "g7u4-49",
+    "en": "blow away",
+    "phonetic": "",
+    "pos": "",
+    "cn": [
+      "吹走"
+    ],
+    "example": "",
+    "exampleCn": "",
+    "grade": 7,
+    "semester": 1,
+    "unit": 4
+  }
+]
