@@ -34,20 +34,32 @@
 
 ## 快速开始
 
-### 前端
+### 一键启动（推荐）
 ```bash
-cd word-explorer-frontend
+# 首次使用需安装依赖
 npm install
-npm run dev    # 启动开发服务器，默认 http://localhost:5173
-```
+npm run install:all
 
-### 后端
-```bash
+# 初始化数据库（仅首次）
 cd word-explorer-backend
-npm install
 npx prisma generate
 npx prisma migrate dev --name init
-npm run dev    # 启动后端服务器，默认 http://localhost:3001
+cd ..
+
+# 同时启动前后端
+npm run dev
+```
+启动后访问 **http://localhost:5173** 即可使用。
+
+### 分别启动
+```bash
+# 终端1 - 后端
+cd word-explorer-backend
+npm run dev    # 后端 http://localhost:3000
+
+# 终端2 - 前端
+cd word-explorer-frontend
+npm run dev    # 前端 http://localhost:5173
 ```
 
 ## 目录结构

@@ -1,0 +1,15 @@
+{
+  "name": "word-explorer",
+  "version": "1.0.0",
+  "description": "单词探险家 - 英语单词记忆网页应用",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm run dev -w word-explorer-backend\" \"npm run dev -w word-explorer-frontend\"",
+    "dev:backend": "npm run dev -w word-explorer-backend",
+    "dev:frontend": "npm run dev -w word-explorer-frontend",
+    "install:all": "cd word-explorer-backend && npm install && cd .. && cd word-explorer-frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
